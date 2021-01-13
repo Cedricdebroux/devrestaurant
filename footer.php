@@ -22,11 +22,17 @@
       ];
       wp_nav_menu( $args );
     ?>
+    <div class="row">
+      <div class="col"><?php dynamic_sidebar('footer-area-one');?></div>
+      <div class="col"><?php dynamic_sidebar('footer-area-two');?> </div>
+      <div class="col"><?php dynamic_sidebar('footer-area-three');?></div>
+      <div class="col"><?php dynamic_sidebar('footer-area-four');?></div>
+    </div>
           <div class="test">
-        <?php dynamic_sidebar('footer-area-one');?>
-        <?php dynamic_sidebar('footer-area-two');?> 
-         <?php dynamic_sidebar('footer-area-three');?>
-        <?php dynamic_sidebar('footer-area-four');?>
+        
+        
+         
+        
     </div>
     <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
     
