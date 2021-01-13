@@ -28,12 +28,7 @@
       <div class="col-4"><?php dynamic_sidebar('footer-area-three');?></div>
       <div class="col-4"><?php dynamic_sidebar('footer-area-four');?></div>
     </div>
-          <div class="test">
         
-        
-         
-        
-    </div>
     <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
     
 
