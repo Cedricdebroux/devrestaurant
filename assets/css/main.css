@@ -107,9 +107,7 @@ footer.site-footer {
   list-style: none;
 }
 #masthead {
-  margin: 2rem auto 1rem;
-
-  width: 90%;
+  width: 100vw;
 }
 
 .main-navigation li {
@@ -624,35 +622,31 @@ blockquote.right {
   }
 }
 
-
 /*--------------------------------------------------------------
   # FOOTER 
   --------------------------------------------------------------*/
-  footer.site-footer {
-    text-align: left;
-  }
+footer.site-footer {
+  text-align: left;
+}
 
-  .footer-area-one {
-    
+.footer-area-one {
+}
+.footer {
+  padding: 20px;
+  color: grey;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  }
-  .footer {
+#gallery-1 img {
+  width: 100px;
+  height: 100px;
+}
 
-    padding: 20px; 
-    color: grey;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #gallery-1 img{
-    width: 100px;
-    height: 100px;
-  }
-
-  #colophon {
-    background-color: rgb(44, 44, 44);
-    width: 100%;
-    display: grid;
-    justify-content: center;
-  }
+#colophon {
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
