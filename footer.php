@@ -26,9 +26,9 @@
       <div class="col-3"><?php dynamic_sidebar('footer-area-one');?></div>
       <div class="col-3"><?php dynamic_sidebar('footer-area-two');?> </div>
         <?php get_field('subtitle'); ?>
-        Test
-      <div class="col-3"><?php dynamic_sidebar('footer-area-three');?> test</div>
-      <div class="col-3"><?php dynamic_sidebar('footer-area-four');?> test </div>
+        Test area 2
+      <div class="col-3"><?php dynamic_sidebar('footer-area-three');?> test 3 </div>
+      <div class="col-3"><?php dynamic_sidebar('footer-area-four');?> test 4</div>
     </div>
         
     <div class="text-center">
