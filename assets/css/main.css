@@ -630,9 +630,12 @@ blockquote.right {
   --------------------------------------------------------------*/
   footer.site-footer {
     text-align: left;
-}
+  }
 
   .footer-area-one {
     color: grey;
 
+  }
+  .footer {
+    background-color: rgb(44, 44, 44);
   }
