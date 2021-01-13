@@ -31,15 +31,14 @@
       <div class="col-3"><?php dynamic_sidebar('footer-area-four');?></div>
     </div>
         
-    <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
-    
-
-
-
-    <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
+    <div class="text-center">
+      <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
+      <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
       <?php printf( esc_html__( 'Proudly powered by %s', 'TPrestaurant' ), 'Team Perfect' ); ?>
     </a>
 
+    </div>
+    
   </footer>
 
 </div><!-- #page -->
