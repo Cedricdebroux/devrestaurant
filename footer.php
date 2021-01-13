@@ -24,13 +24,13 @@
     ?>
     <div class="row">
       <div class="footer row">
-        <div class="col-3"><?php dynamic_sidebar('footer-area-one');?></div>
-        <div class="col-3"><?php dynamic_sidebar('footer-area-two');?> </div>
-        <div class="col-3"><?php dynamic_sidebar('footer-area-three');?></div>
-        <div class="col-3"><?php dynamic_sidebar('footer-area-four');?></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-two');?> </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-three');?></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
       </div>
     </div>
-    <div class="row">
+    <div class="row d-flex justify-content-center">
       <div class="text-center">
         <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
         <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
