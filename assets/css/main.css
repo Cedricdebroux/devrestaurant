@@ -623,3 +623,14 @@ blockquote.right {
     width: 90% !important;
   }
 }
+
+
+/*--------------------------------------------------------------
+  # FOOTER 
+  --------------------------------------------------------------*/
+
+  .footer-area-one {
+    color: grey;
+    display: grid;
+    justify-content: left;
+  }
