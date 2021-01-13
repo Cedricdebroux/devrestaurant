@@ -641,6 +641,8 @@ blockquote.right {
     padding: 20px; 
     color: grey;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #gallery-1 img{

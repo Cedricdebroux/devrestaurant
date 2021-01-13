@@ -22,20 +22,24 @@
       ];
       wp_nav_menu( $args );
     ?>
-    <div class="footer row">
-      <div class="col-3"><?php dynamic_sidebar('footer-area-one');?></div>
-      <div class="col-3"><?php dynamic_sidebar('footer-area-two');?> </div>
-      <div class="col-3"><?php dynamic_sidebar('footer-area-three');?></div>
-      <div class="col-3"><?php dynamic_sidebar('footer-area-four');?></div>
+    <div class="row">
+      <div class="footer row">
+        <div class="col-3"><?php dynamic_sidebar('footer-area-one');?></div>
+        <div class="col-3"><?php dynamic_sidebar('footer-area-two');?> </div>
+        <div class="col-3"><?php dynamic_sidebar('footer-area-three');?></div>
+        <div class="col-3"><?php dynamic_sidebar('footer-area-four');?></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
+        <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
+        <?php printf( esc_html__( 'Proudly powered by %s', 'TPrestaurant' ), 'Team Perfect' ); ?>
+        </a>
+      </div>
     </div>
         
-    <div class="text-center">
-      <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
-      <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
-      <?php printf( esc_html__( 'Proudly powered by %s', 'TPrestaurant' ), 'Team Perfect' ); ?>
-    </a>
 
-    </div>
     
   </footer>
 
