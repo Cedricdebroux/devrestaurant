@@ -651,4 +651,6 @@ blockquote.right {
   #colophon {
     background-color: rgb(44, 44, 44);
     width: 100%;
+    display: grid;
+    justify-content: center;
   }
