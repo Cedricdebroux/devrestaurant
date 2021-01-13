@@ -15,25 +15,24 @@ body {
   background-color: #fafafa;
   font-family: "Poppins", sans-serif;
 }
-
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: rgb(95, 94, 94);
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
+  color: rgb(95, 94, 94);
   font-weight: bolder;
 }
 .navbar-light .navbar-nav .nav-link a:hover {
-  color: white;
+  color: rgb(95, 94, 94);
   font-weight: bolder;
 }
 
 .site-title a {
-  color: white !important;
+  color: rgb(95, 94, 94) !important;
 }
 h1,
 h2,
@@ -58,11 +57,11 @@ h2.search-title {
 }
 
 a {
-  color: #fdfdfc;
+  color: #777;
   text-decoration: none;
 }
 a:hover {
-  color: #fdfdfc !important;
+  color: #777 !important;
   text-decoration: dashed !important;
 }
 
@@ -120,14 +119,14 @@ footer.site-footer {
 }
 
 .main-navigation li:hover > a {
-  color: rgb(255, 255, 255);
+  color: #777;
   text-decoration: dashed;
 }
 
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current-page-parent > a {
   font-weight: bold;
-  color: #cecece;
+  color: #777;
 }
 
 .main-navigation li ul {
