@@ -628,9 +628,9 @@ blockquote.right {
 /*--------------------------------------------------------------
   # FOOTER 
   --------------------------------------------------------------*/
-  .footer.site-footer {
-    text-align: start;
-  }
+  footer.site-footer {
+    text-align: left;
+}
 
   .footer-area-one {
     color: grey;

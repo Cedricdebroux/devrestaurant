@@ -23,10 +23,10 @@
       wp_nav_menu( $args );
     ?>
     <div class="row">
-      <div class="col-4 text-start"><?php dynamic_sidebar('footer-area-one');?></div>
-      <div class="col-4"><?php dynamic_sidebar('footer-area-two');?> </div>
-      <div class="col-4"><?php dynamic_sidebar('footer-area-three');?></div>
-      <div class="col-4"><?php dynamic_sidebar('footer-area-four');?></div>
+      <div class="col-3"><?php dynamic_sidebar('footer-area-one');?></div>
+      <div class="col-3"><?php dynamic_sidebar('footer-area-two');?> </div>
+      <div class="col-3"><?php dynamic_sidebar('footer-area-three');?></div>
+      <div class="col-3"><?php dynamic_sidebar('footer-area-four');?></div>
     </div>
         
     <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
