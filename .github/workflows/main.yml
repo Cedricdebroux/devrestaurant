@@ -12,4 +12,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}  
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /home/users6/r/rug1076/www/TeamPerfect/wp-content/themes/TeamPerfect
+        server-dir: ftp://rug1076_EmiTeamPerfect@ftp.phpnet.org/wp-content/themes/TeamPerfect
