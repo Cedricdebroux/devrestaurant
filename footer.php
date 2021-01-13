@@ -22,6 +22,7 @@
       ];
       wp_nav_menu( $args );
     ?>
+    <img src="/assets/image/hachures-noires.png" alt="">
     <div class="row">
       <div class="footer row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?></div>

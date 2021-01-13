@@ -628,31 +628,36 @@ blockquote.right {
 /*--------------------------------------------------------------
   # FOOTER 
   --------------------------------------------------------------*/
-  footer.site-footer {
-    text-align: left;
-  }
+footer.site-footer {
+  text-align: left;
+}
 
-  .footer-area-one {
-    
+.footer-area-one {
+  
 
-  }
-  .footer {
+}
 
-    padding: 20px; 
-    color: grey;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.footer {
 
-  #gallery-1 img{
-    width: 100px;
-    height: 100px;
-  }
+  padding: 20px; 
+  color: grey;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  #colophon {
-    background-color: rgb(44, 44, 44);
-    width: 100%;
-    display: grid;
-    justify-content: center;
-  }
+#gallery-1 img{
+  width: 100px;
+  height: 100px;
+}
+
+#colophon {
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+#colophon img {
+  width: 100%;
+}
