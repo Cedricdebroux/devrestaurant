@@ -640,7 +640,7 @@ blockquote.right {
 
     padding: 20px; 
     color: grey;
-    width: 100%;
+    width: 80%;
   }
 
   #gallery-1 img{
@@ -650,4 +650,5 @@ blockquote.right {
 
   #colophon {
     background-color: rgb(44, 44, 44);
+    width: 100%;
   }
