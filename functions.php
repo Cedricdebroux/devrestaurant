@@ -132,6 +132,11 @@ function register_widget_areas() {
       'before_title'  => '<h4>',
       'after_title'   => '</h4>',
     ));
+
+    register_sidebar( array( // For the divider of the footer
+      'name'          => 'Footer area Divider',
+      'id'            => 'footer_area_divider',
+    ));
   
   }
   
