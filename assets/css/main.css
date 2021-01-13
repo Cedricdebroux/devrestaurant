@@ -640,3 +640,8 @@ blockquote.right {
     background-color: rgb(44, 44, 44);
     padding: 20px; 
   }
+
+  #gallery-1 img{
+    width: 100px;
+    height: 100px;
+  }
