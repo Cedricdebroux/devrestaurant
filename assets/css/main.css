@@ -107,9 +107,7 @@ footer.site-footer {
   list-style: none;
 }
 #masthead {
-  margin: 2rem auto 1rem;
-
-  width: 90%;
+  width: 100vw;
 }
 
 .main-navigation li {
@@ -623,7 +621,6 @@ blockquote.right {
     width: 90% !important;
   }
 }
-
 
 /*--------------------------------------------------------------
   # FOOTER 
