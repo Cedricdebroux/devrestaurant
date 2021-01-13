@@ -635,7 +635,7 @@ footer.site-footer {
 }
 
 .footer {
-
+  margin-top: 0;
   padding: 20px; 
   color: grey;
   width: 80%;
@@ -653,8 +653,4 @@ footer.site-footer {
   width: 100%;
   display: grid;
   justify-content: center;
-}
-
-#colophon img {
-  width: 100%;
 }

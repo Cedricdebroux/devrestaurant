@@ -2,7 +2,7 @@
   </div><!-- #content -->
 
   <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="shapeDivider m-5"><?php dynamic_sidebar('footer-area-divider');?></div>
+    <div class="shapeDivider mb-5"><?php dynamic_sidebar('footer-area-divider');?></div>
     <?php
       $args = [
         // Location pickable in Customizer
