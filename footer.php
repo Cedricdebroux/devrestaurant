@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="row d-flex justify-content-center">
-      <div class="text-center">
+      <div class="text-center p-3">
         <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
         <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
         <?php printf( esc_html__( 'Proudly powered by %s', 'TPrestaurant' ), 'Team Perfect' ); ?>
