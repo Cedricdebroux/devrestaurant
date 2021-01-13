@@ -649,7 +649,7 @@ footer.site-footer {
 }
 
 #colophon {
-  background-color: rgb(44, 44, 44);
+  background-color: #292929;
   width: 100%;
   display: grid;
   justify-content: center;
@@ -657,4 +657,5 @@ footer.site-footer {
 
 .shapeDivider li {
   margin-top:-15px;
+
 }
