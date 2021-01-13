@@ -637,7 +637,7 @@ blockquote.right {
 
   }
   .footer {
-    background-color: rgb(44, 44, 44);
+
     padding: 20px; 
     color: grey;
   }
@@ -645,4 +645,8 @@ blockquote.right {
   #gallery-1 img{
     width: 100px;
     height: 100px;
+  }
+
+  #collophon {
+    background-color: rgb(44, 44, 44);
   }
