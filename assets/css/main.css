@@ -57,11 +57,11 @@ h2.search-title {
 }
 
 a {
-  color: #fdfdfc;
+  color: #777;
   text-decoration: none;
 }
 a:hover {
-  color: #fdfdfc !important;
+  color: #777 !important;
   text-decoration: dashed !important;
 }
 
@@ -119,14 +119,14 @@ footer.site-footer {
 }
 
 .main-navigation li:hover > a {
-  color: rgb(255, 255, 255);
+  color: #777;
   text-decoration: dashed;
 }
 
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current-page-parent > a {
   font-weight: bold;
-  color: #cecece;
+  color: #777;
 }
 
 .main-navigation li ul {
