@@ -23,10 +23,10 @@
       wp_nav_menu( $args );
     ?>
     <div class="row">
-      <div class="col"><?php dynamic_sidebar('footer-area-one');?></div>
-      <div class="col"><?php dynamic_sidebar('footer-area-two');?> </div>
-      <div class="col"><?php dynamic_sidebar('footer-area-three');?></div>
-      <div class="col"><?php dynamic_sidebar('footer-area-four');?></div>
+      <div class="col-4"><?php dynamic_sidebar('footer-area-one');?></div>
+      <div class="col-4"><?php dynamic_sidebar('footer-area-two');?> </div>
+      <div class="col-4"><?php dynamic_sidebar('footer-area-three');?></div>
+      <div class="col-4"><?php dynamic_sidebar('footer-area-four');?></div>
     </div>
           <div class="test">
         
