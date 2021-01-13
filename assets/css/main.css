@@ -103,6 +103,9 @@ footer.site-footer {
   text-align: center;
   width: 80%;
 }
+.footer-area ul {
+  list-style: none;
+}
 #masthead {
   margin: 2rem auto 1rem;
 
