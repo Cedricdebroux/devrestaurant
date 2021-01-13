@@ -15,25 +15,24 @@ body {
   background-color: #fafafa;
   font-family: "Poppins", sans-serif;
 }
-
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: rgb(95, 94, 94);
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
+  color: rgb(95, 94, 94);
   font-weight: bolder;
 }
 .navbar-light .navbar-nav .nav-link a:hover {
-  color: white;
+  color: rgb(95, 94, 94);
   font-weight: bolder;
 }
 
 .site-title a {
-  color: white !important;
+  color: rgb(95, 94, 94) !important;
 }
 h1,
 h2,
