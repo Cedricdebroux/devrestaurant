@@ -633,12 +633,13 @@ blockquote.right {
   }
 
   .footer-area-one {
-    color: grey;
+    
 
   }
   .footer {
     background-color: rgb(44, 44, 44);
     padding: 20px; 
+    color: grey;
   }
 
   #gallery-1 img{
