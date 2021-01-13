@@ -640,6 +640,7 @@ blockquote.right {
 
     padding: 20px; 
     color: grey;
+    width: 100%;
   }
 
   #gallery-1 img{
