@@ -16,18 +16,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(95, 94, 94);
+  color: rgb(255, 255, 255);
+}
+#home-ico {
+  color: white !important;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: rgb(95, 94, 94);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 .navbar-light .navbar-nav .nav-link a:hover {
-  color: rgb(95, 94, 94);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 
@@ -122,30 +125,6 @@ footer.site-footer {
 .main-navigation li:hover > a {
   color: #777;
   text-decoration: dashed;
-}
-
-.main-navigation li.current-menu-item > a,
-.main-navigation li.current-page-parent > a {
-  font-weight: bold;
-  color: #777;
-}
-
-.main-navigation li ul {
-  display: none;
-}
-
-.main-navigation li:hover ul {
-  display: block;
-  position: absolute;
-  margin-left: -10px;
-  z-index: 100;
-  background: #fff091;
-  padding: 5px 10px;
-}
-
-.main-navigation li:hover ul li {
-  display: block;
-  margin: 0.5rem 0;
 }
 
 #content {
@@ -630,13 +609,11 @@ footer.site-footer {
 }
 
 .footer-area-one {
-  
-
 }
 
 .footer {
   margin-top: 0;
-  padding: 20px; 
+  padding: 20px;
   color: grey;
   width: 80%;
   margin-left: auto;
@@ -644,7 +621,7 @@ footer.site-footer {
   position:relative;
 }
 
-#gallery-1 img{
+#gallery-1 img {
   width: 100px;
   height: 100px;
 }
