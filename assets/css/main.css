@@ -18,6 +18,9 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
 }
+#home-ico {
+  color: white !important;
+}
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
