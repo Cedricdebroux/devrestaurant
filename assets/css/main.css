@@ -633,6 +633,9 @@ footer.site-footer {
   justify-content: center;
 }
 
+.shapeDivider {
+  position: relative;
+}
 .shapeDivider li {
   list-style-type: none;
   position: absolute;
