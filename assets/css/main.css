@@ -38,8 +38,7 @@ body {
   color: rgb(255, 255, 255) !important;
 }
 /* menu hover et header elementor*/
-.hfe-nav-menu__layout-horizontal li.menu-item,
-.hfe-nav-menu__layout-horizontal > li.menu-item a:hover {
+li.menu-item a:hover {
   color: rgb(255, 255, 255) !important;
 }
 .elementor-widget-heading
