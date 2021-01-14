@@ -129,7 +129,7 @@ function register_widget_areas() {
       'description'   => 'This widget area description',
       'before_widget' => '<section class="footer-area footer-area-three">',
       'after_widget'  => '</section>',
-      'before_title'  => '<h4><a href="http://www.instagram.com" alt="">',
+      'before_title'  => '<h4><a href="http://www.instagram.com" alt="" target="_blank">',
       'after_title'   => '</a></h4>',
     ));
 
