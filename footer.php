@@ -25,7 +25,7 @@
       <div class="footer row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?> 
           <div class="d-flex flex-row bd-highlight">
-            <a href="http://www.twitter.com" target="_blank"> 
+            <a href="<?php the_field('twitter_link');?>" target="_blank"> 
               <div class="mr-2">
                 <svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 11.433 9.285">
                   <defs>
@@ -39,7 +39,7 @@
                 </svg>
               </div>
             </a>
-            <a href="http://linkedin.com" target="_blank">
+            <a href="<?php the_field('linkedin_link');?>" target="_blank">
               <div class="mr-2">
                 <svg  id="linkedin" xmlns="http://www.w3.org/2000/svg" width="11.143" height="10.648" viewBox="0 0 11.143 10.648">
                   <defs>
@@ -53,7 +53,7 @@
                 </svg>
               </div>
             </a>
-            <a href="http://www.facebook.com" target="_blank">
+            <a href="<?php the_field('linkedin_link');?>" target="_blank">
               <div class="mr-2">
                 <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="6.267" height="12.072" viewBox="0 0 6.267 12.072">
                   <defs>
@@ -67,7 +67,7 @@
                 </svg>
               </div>
             </a>
-            <a href="http://instagram.com" target="_blank">
+            <a href="<?php the_field('instagram_link');?>" target="_blank">
               <div class="mr-2">
                 <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="11.143" height="11.144" viewBox="0 0 11.143 11.144">
                   <defs>
