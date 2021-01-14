@@ -620,6 +620,9 @@ footer.site-footer {
   margin-right: auto;
   position:relative;
 }
+.footer a {
+  color: white;
+}
 
 #gallery-1 img {
   width: 100px;
