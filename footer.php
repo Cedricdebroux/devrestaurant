@@ -83,7 +83,55 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-two');?> </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center">
+          <div class="h5"><?php the_title();?></div>
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
+                <g id="time-clock" transform="translate(-1 -1)">
+                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                </g>
+              </svg> <p class="mr-2">Mondays ---- <?php the-field('monday');?></p>
+            </div>
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
+                <g id="time-clock" transform="translate(-1 -1)">
+                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                </g>
+              </svg> <p class="mr-2">Tue - Fri ---- <?php the-field('tue_fri');?></p>
+            </div>
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
+                <g id="time-clock" transform="translate(-1 -1)">
+                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                </g>
+              </svg> <p class="mr-2">Sat - Sun  ---- <?php the-field('sat-sun');?></p>
+            </div>
+            <div class="svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
+                <g id="time-clock" transform="translate(-1 -1)">
+                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
+                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+                </g>
+              </svg> <p class="mr-2">Public Holidays---- <?php the-field('public_holidays');?></p>
+            </div>
+          
+      
+      </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?></div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
       </div>
