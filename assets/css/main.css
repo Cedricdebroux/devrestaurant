@@ -576,15 +576,15 @@ blockquote.right {
     width: 90% !important;
   }
   .footer dt img {
-    width: 50px !important;
-    height: 50px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .footer dt img {
-    width: 50px !important;
-    height: 50px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
   }
 }
 
