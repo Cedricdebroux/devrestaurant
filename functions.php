@@ -45,6 +45,7 @@ function TPrestaurant_enqueue_scripts() {
 		wp_enqueue_script('magnific');
 
   wp_enqueue_script( 'theme-js', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], time(), true );
+  wp_enqueue_script( 'footer-js', get_stylesheet_directory_uri() . '/assets/js/footer.js', [], time(), true );
 
 }
 add_action( 'wp_enqueue_scripts', 'TPrestaurant_enqueue_scripts' );
