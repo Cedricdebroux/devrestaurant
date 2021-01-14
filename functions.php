@@ -129,8 +129,8 @@ function register_widget_areas() {
       'description'   => 'This widget area description',
       'before_widget' => '<section class="footer-area footer-area-three">',
       'after_widget'  => '</section>',
-      'before_title'  => '<h4>',
-      'after_title'   => '</h4>',
+      'before_title'  => '<h4><a href="http://www.instagram.com" alt="">',
+      'after_title'   => '</a></h4>',
     ));
 
     register_sidebar( array( // For the divider of the footer
