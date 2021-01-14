@@ -33,9 +33,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: bolder;
 }
-.navbar-light .navbar-nav .nav-link svg {
-  color: rgb(255, 255, 255);
-}
+
 .site-title a {
   color: rgb(95, 94, 94) !important;
 }
