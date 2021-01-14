@@ -24,9 +24,9 @@
     <div class="row">
       <div class="footer row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?> 
-          <div class="row row-cols-3">
+          <div class="row row-cols-4">
             <div class="col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="11.433" height="9.285" viewBox="0 0 11.433 9.285">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 11.433 9.285">
                 <defs>
                   <style>
                     .cls-1 {
