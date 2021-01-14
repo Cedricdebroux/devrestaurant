@@ -19,3 +19,12 @@ lightbox.addEventListener('click', e => {
   if (e.target !== e.currentTarget) return
   lightbox.classList.remove('active')
 })
+
+
+/* HEADER MENU UNDERLINE */ 
+
+const navs = document.querySelectorAll('nav li a')
+navs.foreach(nav => {
+    nav.classList.add('hvr-underline-from-center')
+})
+
