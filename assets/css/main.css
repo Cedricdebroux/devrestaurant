@@ -575,6 +575,10 @@ blockquote.right {
   #content {
     width: 90% !important;
   }
+  .footer dt img {
+    width: 50px !important;
+    height: 50px !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
