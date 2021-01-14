@@ -668,15 +668,16 @@ footer.site-footer {
   justify-content: center;
   align-items: center;
 }
-
+#lightbox.active img {
+  transition-duration: 1s;
+  animation: pop-in 1s forwards;
+}
 #lightbox img {
   max-width: 90%;
   max-height: 80%;
   padding: 4px;
   background-color: black;
   border: 2px solid white;
-  transition-duration: 1s;
-  animation: pop-in 1s forwards;
 }
 
 @-webkit-keyframes pop-in {
