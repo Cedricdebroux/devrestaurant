@@ -94,7 +94,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="mr-2">Mondays ---- <?php the-field('monday');?></p>
+              </svg> <p class="mr-2">Mondays ---- <?php the_field('monday');?></p>
             </div>
             <div class="svg">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -105,7 +105,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="mr-2">Tue - Fri ---- <?php the-field('tue_fri');?></p>
+              </svg> <p class="mr-2">Tue - Fri ---- <?php the_field('tue_fri');?></p>
             </div>
             <div class="svg">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -116,7 +116,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="mr-2">Sat - Sun  ---- <?php the-field('sat-sun');?></p>
+              </svg> <p class="mr-2">Sat - Sun  ---- <?php the_field('sat-sun');?></p>
             </div>
             <div class="svg">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -127,7 +127,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="mr-2">Public Holidays---- <?php the-field('public_holidays');?></p>
+              </svg> <p class="mr-2">Public Holidays---- <?php the_field('public_holidays');?></p>
             </div>
           
       
