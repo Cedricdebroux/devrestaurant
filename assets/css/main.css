@@ -693,3 +693,8 @@ footer.site-footer {
     transform: scale(1);
   }
 }
+
+#facebook {
+  background-color: #3b5999;
+  padding: 15px;
+}
