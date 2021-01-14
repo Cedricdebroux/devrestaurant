@@ -84,7 +84,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center">
-          <div class="h5"><?php the_title();?></div>
+          <div class="h5">Opening Hours</div>
             <div class="row openingHours">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
                 <g id="time-clock" transform="translate(-1 -1)">
