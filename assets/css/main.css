@@ -127,30 +127,6 @@ footer.site-footer {
   text-decoration: dashed;
 }
 
-.main-navigation li.current-menu-item > a,
-.main-navigation li.current-page-parent > a {
-  font-weight: bold;
-  color: #777;
-}
-
-.main-navigation li ul {
-  display: none;
-}
-
-.main-navigation li:hover ul {
-  display: block;
-  position: absolute;
-  margin-left: -10px;
-  z-index: 100;
-  background: #fff091;
-  padding: 5px 10px;
-}
-
-.main-navigation li:hover ul li {
-  display: block;
-  margin: 0.5rem 0;
-}
-
 #content {
   background: #fff;
   margin: 20px auto;
