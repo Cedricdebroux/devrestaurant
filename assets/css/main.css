@@ -601,6 +601,13 @@ blockquote.right {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .footer dt img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
 /*--------------------------------------------------------------
   # FOOTER 
   --------------------------------------------------------------*/
@@ -625,7 +632,7 @@ footer.site-footer {
 }
 
 .footer .h5, .footer .h2 {
-  font-weight: 900;
+  font-weight: bold;
 }
 
 #gallery-1 img {
