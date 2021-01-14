@@ -127,7 +127,7 @@ function register_widget_areas() {
       'name'          => 'Footer area four',
       'id'            => 'footer_area_four',
       'description'   => 'This widget area description',
-      'before_widget' => '<section class="footer-area footer-area-three">',
+      'before_widget' => '<section class="footer-area footer-area-three instaGallery">',
       'after_widget'  => '</section>',
       'before_title'  => '<h4><a href="http://www.instagram.com" alt="" target="_blank">',
       'after_title'   => '</a></h4>',

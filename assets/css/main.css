@@ -642,3 +642,6 @@ footer.site-footer {
   top:-15px;
 
 }
+.gallery-1 img {
+  cursor : pointer;
+}
