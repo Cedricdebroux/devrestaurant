@@ -696,13 +696,19 @@ footer.site-footer {
 
 #facebook {
   background-color: #3b5999;
-  padding: 15px;
 }
-
+#twitter {
+  background-color: #5face4;
+}
+#instagram {
+  background-color: #e44160;
+}
+#linkedin {
+  background-color: #0077b4;
+}
 footer svg {
-  overflow: hidden;
+  overflow: visible;
   vertical-align: middle;
-  background: #3b5999;
   padding: 15px;
   font-size: 30px;
   width: 40px;
