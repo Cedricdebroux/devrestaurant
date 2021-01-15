@@ -13,16 +13,15 @@
   </header>
 
   <div class="entry-content">
-  <div class="the_menu_title">
-  <?php the_field('the_menu_title'); ?>
-  <?php the_field('title'); ?>
-  <?php the_field('text'); ?>
-  <?php the_field('price'); ?>
-  </div>
 
     <?php the_excerpt(); ?>
 
   </div>
-
+  <div class="the_menu_title">
+<?php the_field('the_menu_title'); ?>
+<?php the_field('title'); ?>
+<?php the_field('text'); ?>
+<?php the_field('price'); ?>
+</div>
 
 </article>
