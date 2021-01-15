@@ -149,11 +149,12 @@
                 <div class="rightSide"><?php the_field('public_holidays');?></div>
               </div>
             </div>
+         
           
       </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?>
           <div class="test">
-               <p><?php the_field('phone_number');?> <?php the_field('email');?>  <?php the_field('adress');?></p>
+               <p><img src="<?php echo get_template_directory_uri(); ?>assets/image/place(14).svg" alt="" width="20" height="20"><?php the_field('phone_number');?> <?php the_field('email');?>  <?php the_field('adress');?></p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
