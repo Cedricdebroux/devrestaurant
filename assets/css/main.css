@@ -742,20 +742,13 @@ footer svg {
 }
 .gridHr {
   display:grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto;
   position:relative;
+  width:100%;
 }
 
 .footer .openingHours hr {
   margin: 1.2rem 15px 1rem 15px;
   color:white;
   border: 1px solid white;
-}
-
-
-.gridHrTest {
-  display:grid;
-  grid-template-columns: auto auto 1fr auto;
-  position:relative;
-  width:100%;
 }
