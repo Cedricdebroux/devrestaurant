@@ -130,9 +130,12 @@
               </svg> <p class="dayOpen">Public Holidays---- <?php the_field('public_holidays');?></p>
             </div>
           
-      
       </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?></div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?>
+          <div class="test">
+               <p><?php the_field('phone_number');?> <?php the_field('email');?>  <?php the_field('adress');?></p>
+          </div>
+        </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
       </div>
     </div>
