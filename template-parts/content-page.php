@@ -10,7 +10,13 @@
 
     <?php the_content(); ?>
     <p>Template:content page.php</p>
-    <?php the_field('the_menu_title'); ?>
+    <?php 
+      if(have_rows('the_menu_title')) :
+        while(have_rows('the_menu_title')) : the_row();
+          $sub_value = get_sub_field('title');
+        endwhile;  
+      endif;  
+    ?>
 
   </div>
 
