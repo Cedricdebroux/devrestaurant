@@ -9,6 +9,7 @@
   <div class="entry-content">
 
     <?php the_content(); ?>
+    <p>Template:content page.php</p>
 
   </div>
 
