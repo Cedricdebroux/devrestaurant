@@ -19,6 +19,7 @@
           endif;  
         ?>
     </div>
+    <div class="menu1">
     <?php 
       if(have_rows('menu1')) :
         while(have_rows('menu1')) : the_row();
@@ -26,6 +27,7 @@
         endwhile;  
       endif;  
     ?>
+    </div>
 
   </div>
 
