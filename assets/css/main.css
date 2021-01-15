@@ -752,3 +752,8 @@ footer svg {
   color:white;
 }
 
+.gridHrTest {
+  display:grid;
+  grid-template-columns: auto auto 1fr auto;
+  position:relative;
+}
