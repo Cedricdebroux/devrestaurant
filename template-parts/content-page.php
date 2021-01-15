@@ -12,7 +12,7 @@
     </div>
 
     <?php the_content(); ?>
-    <p>Template:content page.php</p>
+  
 
     <?php 
       if(have_rows('menu')) :
