@@ -7,18 +7,18 @@
   </header>
 
   <div class="entry-content">
-    <div class="theMenu_welcome">
-    <?php 
-      if(have_rows('category1')) :
-        while(have_rows('category1')) : the_row();
-          the_sub_field('category_title');
-        endwhile;  
-      endif;  
-    ?>
-    </div>
 
     <?php the_content(); ?>
     <p>Template:content page.php</p>
+    <div class="theMenu_welcome">
+        <?php 
+          if(have_rows('category1')) :
+            while(have_rows('category1')) : the_row();
+              the_sub_field('category_title');
+            endwhile;  
+          endif;  
+        ?>
+    </div>
 
     <?php 
       if(have_rows('menu')) :
