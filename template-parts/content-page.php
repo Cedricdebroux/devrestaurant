@@ -9,7 +9,7 @@
   <div class="entry-content">
 
     <?php the_content(); ?>
-    <p>Template:content page.php</p>
+  
     <div class="theMenu_welcome">
         <?php 
           if(have_rows('category1')) :
