@@ -15,8 +15,8 @@
     <p>Template:content page.php</p>
 
     <?php 
-      if(have_rows('the_menu')) :
-        while(have_rows('the_menu')) : the_row();
+      if(have_rows('menu')) :
+        while(have_rows('menu')) : the_row();
           the_sub_field('title');
         endwhile;  
       endif;  
