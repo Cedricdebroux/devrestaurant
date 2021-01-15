@@ -15,13 +15,13 @@
   <div class="entry-content">
 
     <?php the_excerpt(); ?>
+    <div class="the_menu_title">
+<?php the_field('the_menu_subtitle'); ?>
+<?php the_field('the_menu_title'); ?>
+
+</div>
 
   </div>
-  <div class="the_menu_title">
-<?php the_field('the_menu_title'); ?>
-<?php the_field('title'); ?>
-<?php the_field('text'); ?>
-<?php the_field('price'); ?>
-</div>
+ 
 
 </article>
