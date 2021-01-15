@@ -10,7 +10,7 @@
 
     <?php the_content(); ?>
     <p>Template:content page.php</p>
-    <?php (the_field('the_menu_title')); ?>
+    <?php the_field('the_menu_title'); ?>
 
   </div>
 
