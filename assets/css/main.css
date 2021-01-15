@@ -727,8 +727,7 @@ footer svg {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: justify;
-  margin-bottom: 20px;
+  justify-content: start;
   margin-top: 0;
 }
 .openingHours svg {
