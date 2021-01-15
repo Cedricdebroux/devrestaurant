@@ -10,7 +10,7 @@
 
     <?php the_content(); ?>
   
-    <p class="h1 theMenu_category">
+    <p class="h1 mt-3 mx-auto theMenu_category">
         <?php 
           if(have_rows('category1')) :
             while(have_rows('category1')) : the_row();
