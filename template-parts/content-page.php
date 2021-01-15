@@ -22,9 +22,7 @@
     <?php 
       if(have_rows('menu1')) :
         while(have_rows('menu1')) : the_row();
-          the_sub_field('name_of_the_meal');
-          the_sub_field('description_of_the_meal');
-          the_sub_field('price_of_the_meal');
+          the_sub_field('name_of_the_meal', 'description_of_the_meal','price_of_the_meal' );
         endwhile;  
       endif;  
     ?>
