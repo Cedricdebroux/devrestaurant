@@ -94,7 +94,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="dayOpen">Mondays ---- <?php the_field('monday');?></p>
+              </svg> <div class="gridHr"><div class="dayOpen">Mondays</div> <div class="middle"><hr></div><div class="rightSide"><?php the_field('monday');?></div></div>
             </div>
             <div class="row openingHours">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -105,7 +105,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="dayOpen">Tue - Fri ---- <?php the_field('tue-fri');?></p>
+              </svg> <div class="gridHr"><div class="dayOpen">Tue - Fri</div> <div class="middle"><hr></div><div class="rightSide"><?php the_field('tue-fri');?></div></div>
             </div>
             <div class="row openingHours">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -116,7 +116,7 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="dayOpen">Sat - Sun  ---- <?php the_field('sat-sun');?></p>
+              </svg> <div class="gridHr"><div class="dayOpen">Sat - Sun</div> <div class="middle"><hr></div><div class="rightSide"><?php the_field('sat-sun');?></div></div>
             </div>
             <div class="row openingHours">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
@@ -127,7 +127,8 @@
                   <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                   <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
                 </g>
-              </svg> <p class="dayOpen">Public Holidays---- <?php the_field('public_holidays');?></p>
+              </svg><div class="gridHr"><div class="dayOpen">Public Holidays</div> <div class="middle"><hr></div><div class="rightSide"><?php the_field('public_holidays');?></div></div>
+
             </div>
           
       </div>
