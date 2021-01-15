@@ -9,8 +9,8 @@
   <div class="entry-content">
 
     <?php the_content(); ?>
-    <h2>Test  text</h2>
     <p>Template:content page.php</p>
+    <?php (the_field('the_menu_title')); ?>
 
   </div>
 
