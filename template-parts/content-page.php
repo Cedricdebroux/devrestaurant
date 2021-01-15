@@ -10,7 +10,7 @@
 
     <?php the_content(); ?>
   
-    <div class="theMenu_welcome">
+    <p class="h1 theMenu_category">
         <?php 
           if(have_rows('category1')) :
             while(have_rows('category1')) : the_row();
@@ -18,7 +18,7 @@
             endwhile;  
           endif;  
         ?>
-    </div>
+    </p>
     <div class="menu1">
     <?php 
       if(have_rows('menu1')) :
