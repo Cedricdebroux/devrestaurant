@@ -731,7 +731,9 @@ footer svg {
   margin-bottom: 20px;
   margin-top: 0;
 }
-
+.openingHours svg {
+  margin-top: 0;
+}
 .dayOpen {
   display: grid;
   align-items: center;
