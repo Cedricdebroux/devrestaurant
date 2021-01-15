@@ -158,7 +158,7 @@
             <p><?php the_field('phone_number');?></p> 
             <p><?php the_field('email');?> </p> 
             <p><?php the_field('adress_street');?></p>
-            <p><?php the_field('adress_city');?></p>
+            <p><?php the_field('adress_number');?></p>
             <p><?php the_field('adress_country');?></p>
           </div>
         </div>
