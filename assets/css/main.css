@@ -287,13 +287,13 @@ article.post {
   #content {
     width: 90% !important;
   }
-  .footer dt img {
+  .instaPictures img  {
     max-width: 100px !important;
     max-height: 100px !important;
   }
 }
 @media only screen and (max-width: 320px) {
-  .footer dt img {
+  .instaPictures img {
     max-width: 100px !important;
     max-height: 100px !important;
   }
@@ -489,8 +489,8 @@ footer .socialNetwork img {
 
 .instaPictures img {
     margin: 0 ;
-    width:100px;
-    height:100px;
+    max-width:100px;
+    max-height:100px;
 }
 
 .instaPictures img:hover {
