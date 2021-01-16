@@ -494,7 +494,7 @@ footer .socialNetwork img {
 }
 
 .instaPictures img:hover {
-  animation-name: bounceIn 1s forwards; 
+  animation: bounceIn 1s forwards; 
   transition-duration: 1s;
 }
 @keyframes bounceIn { 
