@@ -88,7 +88,7 @@
 
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <div class="d-flex align-items-center">
-            <div class="infoUser ml-5">
+            <div class="infoUser">
               <div class="h5 pb-2">Contact Us</div>
               <div class="contactUs mt-20px">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
