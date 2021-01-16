@@ -490,10 +490,12 @@ footer .socialNetwork img {
     margin: 0 ;
     width:100px;
     height:100px;
-    animation-name: bounceIn 1s forwards; 
-    transition-duration: 1s;
 }
 
+.instaPictures img:hover {
+  animation-name: bounceIn 1s forwards; 
+  transition-duration: 1s;
+}
 @keyframes bounceIn { 
   0% { 
       opacity: 0; 
