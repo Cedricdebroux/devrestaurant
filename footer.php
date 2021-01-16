@@ -84,8 +84,8 @@
          
           
       </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-three');?>
-          <div class="d-flex align-items-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 d-flex align-items-center">
+          <div class="h5">Opening Hours</div>
             <div class="infoUser mt-3">
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
