@@ -409,6 +409,12 @@ footer.site-footer {
 #linkedin {
   background-color: #0077b4;
 }
+.network {
+  
+  border-radius: 50px;
+  margin-top: 20px; 
+}
+
 footer .socialNetwork img {
   overflow: visible;
   vertical-align: middle;
@@ -416,8 +422,7 @@ footer .socialNetwork img {
   font-size: 30px;
   width: 10px;
   height: 10px;
-  border-radius: 50px;
-  margin-top: 20px;
+
 }
 .openingHours {
   margin: 0;

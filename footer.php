@@ -26,22 +26,22 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?> 
           <div class="d-flex flex-row bd-highlight socialNetwork">
             <a href="<?php the_field('twitter_link');?>" target="_blank"> 
-              <div class="mr-2" id="twitter">
+              <div class="mr-2 network" id="twitter">
                 <img  src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/twitter.svg" alt="">
               </div>
             </a>
             <a href="<?php the_field('linkedin_link');?>" target="_blank">
-              <div class="mr-2" id="linkedin" >
+              <div class="mr-2 network" id="linkedin" >
                 <img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/linkedin.svg" alt="">
               </div>
             </a>
             <a href="<?php the_field('facebook_link');?>" target="_blank">
-              <div class="mr-2" id="facebook">
+              <div class="mr-2 network" id="facebook">
                 <img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/facebook.svg" alt="">
               </div>
             </a>
             <a href="<?php the_field('instagram_link');?>" target="_blank">
-              <div class="mr-2" id="instagram" >
+              <div class="mr-2 network" id="instagram" >
                 <img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/instagram.svg" alt="">
               </div>
             </a>
