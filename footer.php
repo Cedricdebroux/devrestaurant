@@ -154,7 +154,7 @@
       </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?>
           <div class="test">
-            <img src="<?php echo get_template_directory_uri(); ?>assets/image/place(14).svg" alt="" width="20" height="20">
+            <img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt="" width="20" height="20">
             <p><?php the_field('phone_number');?></p> 
             <p><?php the_field('email');?> </p> 
             <p><?php the_field('adress_street');?></p>
