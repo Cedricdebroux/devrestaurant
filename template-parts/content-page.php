@@ -9,10 +9,10 @@
   <div class="entry-content">
 
     <?php the_content(); ?>
-    <div class="H2 mt-3 d-flex justify-content-center theMenu_subtitle">
+    <div class="h2 mt-3 d-flex justify-content-center theMenu_subtitle">
         <?php the_field('subtitle'); ?>
     </div>
-    <div class="H1 mt-3 d-flex justify-content-center theMenu_title">
+    <div class="h1 mt-3 d-flex justify-content-center theMenu_title">
         <?php the_field('title'); ?>
     </div>
 
