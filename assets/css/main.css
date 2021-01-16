@@ -321,6 +321,7 @@ footer.site-footer {
 .footer .h2,
 .footer .h5 {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 #gallery-1 img {
   width: 100px;
