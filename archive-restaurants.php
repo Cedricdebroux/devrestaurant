@@ -18,7 +18,7 @@
 
       <?php echo paginate_links(); ?>
 
-      <p>Template: archive-portfolio.php</p>
+      <p>Template: archive-restaurants.php</p>
 
     </main>
 

@@ -23,7 +23,7 @@
             <?php the_content(); ?>
 
             <p>
-              Skills:
+              Presentation Restaurant:
               <?php the_terms( $post->ID, 'skills' ); ?>
             </p>
 
@@ -40,7 +40,7 @@
 
       <?php endwhile; endif; ?>
 
-      <p>Template: single-portfolio.php</p>
+      <p>Template: single-restaurant.php</p>
 
     </main>
 
