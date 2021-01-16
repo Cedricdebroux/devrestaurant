@@ -282,17 +282,28 @@ article.post {
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1300px),(min-width: 1000px){
+  .instaPictures img {
+    max-width: 100px !important;
+  }
+  .instaPictures {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 @media only screen and (max-width: 720px) {
   #content {
     width: 90% !important;
   }
   .instaPictures img  {
-    grid-template-columns: 1fr 1fr;
+    max-width: 100px !important;
   }
 }
 @media only screen and (max-width: 320px) {
   .instaPictures img {
+    max-width: 100px !important;
+  }
+  .instaPictures {
     grid-template-columns: 1fr 1fr;
   }
 }
