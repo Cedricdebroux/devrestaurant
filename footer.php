@@ -139,7 +139,7 @@
               <p class="col-10 infoItem"><?php the_field('adress_country');?></p>
             </div>
             <div class="row row-cols-2">
-              <img class="col-2"src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="">
+              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="">
               <p class="col-10 infoItem"><?php the_field('email');?> </p>  
             </div>
           </div>
