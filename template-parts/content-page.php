@@ -7,7 +7,7 @@
   </header>
 
   <div class="entry-content">
-
+    <div class="themenu">
     <?php the_content(); ?>
     <div class="h2 mt-3 d-flex justify-content-center theMenu_subtitle">
         <?php the_field('subtitle'); ?>
@@ -82,7 +82,7 @@
   endif;  
 ?>
 </div>
-
+</div>
   </div>
 
 </article>
