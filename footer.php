@@ -110,7 +110,7 @@
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('email', 'options');?> </p></div>  
+                <div><p class="infoItem email"><?php the_field('email', 'options');?> </p></div>  
               </div>
             </div>
           </div>

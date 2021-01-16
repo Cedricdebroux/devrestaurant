@@ -479,6 +479,7 @@ footer .socialNetwork img {
   cursor: pointer;
   justify-content: center;
   gap: 10px;
+  overflow: scroll;
 }
 
 .instaPictures img {
@@ -486,7 +487,9 @@ footer .socialNetwork img {
     width:100px;
     height:100px;
 }
-
+.infoItem .email {
+  word-wrap: break-word;
+}
 .instaPictures img:hover {
   animation: bounceIn 1s forwards; 
   transition-duration: 1s;
