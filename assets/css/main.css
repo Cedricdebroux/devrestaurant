@@ -488,9 +488,10 @@ footer .socialNetwork img {
 
 .instaPictures img {
     margin: 0 ;
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     animation-name: bounceIn; 
+    transition-duration: 1s;
 }
 
 @keyframes bounceIn { 
