@@ -287,7 +287,11 @@ article.post {
     max-width: 100px !important;
   }
   .instaPictures {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+    justify-content: center;
+    gap: 10px;
   }
 }
 
