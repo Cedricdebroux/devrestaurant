@@ -289,13 +289,11 @@ article.post {
   }
   .instaPictures img  {
     max-width: 100px !important;
-    max-height: 100px !important;
   }
 }
 @media only screen and (max-width: 320px) {
   .instaPictures img {
     max-width: 100px !important;
-    max-height: 100px !important;
   }
 }
 
@@ -322,10 +320,6 @@ footer.site-footer {
 .footer .h5 {
   font-weight: bold;
   margin-bottom: 20px;
-}
-#gallery-1 img {
-  width: 100px;
-  height: 100px;
 }
 #colophon {
   background-color: #292929;
@@ -489,8 +483,8 @@ footer .socialNetwork img {
 
 .instaPictures img {
     margin: 0 ;
-    max-width:100px;
-    max-height:100px;
+    width:100px;
+    height:100px;
 }
 
 .instaPictures img:hover {
