@@ -121,13 +121,13 @@
           
       </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?>
-          <div class="test mt-3">
+          <div class="infoUser mt-3">
             <div class="row row-cols-2">
-              <img class="col-2 logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="" width="20" height="20">
+              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="">
               <p class="col-10 infoItem"><?php the_field('phone_number');?></p> 
             </div>
             <div class="row row-cols-2">
-              <img class="col-2 logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="" width="20" height="20">
+              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="">
               <p class="col-10 infoItem"><?php the_field('adress_street');?></p>
             </div>
             <div class="row row-cols-2">
@@ -139,12 +139,9 @@
               <p class="col-10 infoItem"><?php the_field('adress_country');?></p>
             </div>
             <div class="row row-cols-2">
-              <img class="col-2 logoFooter"src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="" width="20" height="20">
+              <img class="col-2"src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="">
               <p class="col-10 infoItem"><?php the_field('email');?> </p>  
             </div>
-            
-            
-            
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
