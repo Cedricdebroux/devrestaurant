@@ -468,3 +468,9 @@ footer .socialNetwork img {
   width: 15px;
   height:15px;
 }
+.contactUs {
+  display: grid;
+  grid-template-columns: 20px auto;
+  justify-content: start;
+  align-items: center;
+}
