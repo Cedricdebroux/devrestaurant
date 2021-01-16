@@ -488,9 +488,9 @@ footer .socialNetwork img {
 
 .instaPictures img {
     margin: 0 ;
-    width:150px;
-    height:150px;
-    animation-name: bounceIn; 
+    width:100px;
+    height:100px;
+    animation-name: bounceIn 1s forwards; 
     transition-duration: 1s;
 }
 
@@ -502,14 +502,10 @@ footer .socialNetwork img {
 
   50% { 
       opacity: 1; 
-      transform: scale(1.05); 
-  } 
-
-  70% { 
-      transform: scale(.9); 
+      transform: scale(1); 
   } 
 
   100% { 
-      transform: scale(1); 
+      transform: scale(0.3); 
   } 
 } 
