@@ -16,13 +16,13 @@
 
     <?php the_excerpt(); ?>
    
-<?php the_field('the_menu_subtitle'); ?>
+
 
 
 </div>
 
 
-<h2>Test field</h2>
+
   </div>
  
 
