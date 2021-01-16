@@ -84,7 +84,7 @@
          
           
       </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 d-flex align-items-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <div class="h5">Opening Hours</div>
             <div class="infoUser mt-3">
               <div class="contactUs">
