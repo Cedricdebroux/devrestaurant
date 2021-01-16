@@ -320,7 +320,7 @@ footer.site-footer {
 }
 .footer .h2,
 .footer .h5 {
-  font-weight: 700;
+  font-weight: bold;
 }
 #gallery-1 img {
   width: 100px;

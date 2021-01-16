@@ -23,7 +23,9 @@
 
     <div class="row">
       <div class="footer row">
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-one');?> 
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+        <div class="h2"><?php the_field('footer_title_description', 'options');?></div>
+        <p><?php the_field('footer_description', 'options');?></p>
           <div class="d-flex flex-row bd-highlight socialNetwork">
             <a href="<?php the_field('twitter_link', 'options');?>" target="_blank"> 
               <div class="mr-2 network" id="twitter">
