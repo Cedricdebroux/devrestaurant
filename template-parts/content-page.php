@@ -9,8 +9,14 @@
   <div class="entry-content">
 
     <?php the_content(); ?>
-  
-    <p class="h1 mt-3 d-flex justify-content-center theMenu_category">
+    <div class="H2 mt-3 d-flex justify-content-center theMenu_subtitle">
+        <?php the_field('subtitle'); ?>
+    </div>
+    <div class="H1 mt-3 d-flex justify-content-center theMenu_title">
+        <?php the_field('title'); ?>
+    </div>
+
+    <p class="h2 mt-3 d-flex justify-content-center theMenu_category">
         <?php 
           if(have_rows('category1')) :
             while(have_rows('category1')) : the_row();
@@ -32,7 +38,7 @@
       endif;  
     ?>
     </div>
-    <p class="h1 mt-3 d-flex justify-content-center theMenu_category">
+    <p class="h2 mt-3 d-flex justify-content-center theMenu_category">
     <?php 
       if(have_rows('category2')) :
         while(have_rows('category2')) : the_row();
@@ -54,7 +60,7 @@
   endif;  
 ?>
 </div>
-<p class="h1 mt-3 d-flex justify-content-center theMenu_category">
+<p class="h2 mt-3 d-flex justify-content-center theMenu_category">
     <?php 
       if(have_rows('category3')) :
         while(have_rows('category3')) : the_row();
