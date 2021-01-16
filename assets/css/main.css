@@ -475,3 +475,12 @@ footer .socialNetwork img {
   justify-content: start;
   align-content: center;
 }
+
+/** Area four ***/ 
+
+.instaPictures {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  cursor: pointer;
+
+}
