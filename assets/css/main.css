@@ -288,12 +288,12 @@ article.post {
     width: 90% !important;
   }
   .instaPictures img  {
-    max-width: 100px !important;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media only screen and (max-width: 320px) {
   .instaPictures img {
-    max-width: 100px !important;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -479,7 +479,6 @@ footer .socialNetwork img {
   cursor: pointer;
   justify-content: center;
   gap: 10px;
-  overflow: scroll;
 }
 
 .instaPictures img {
