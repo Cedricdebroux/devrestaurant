@@ -87,24 +87,24 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-three');?>
           <div class="infoUser mt-3">
             <div class="contactUs">
-              <div class="align-center"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
-              <div class="align-center"><p class="infoItem"><?php the_field('phone_number');?></p></div>
+              <div class="mr-2"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
+              <div class="mr-2"><p class="infoItem"><?php the_field('phone_number');?></p></div>
             </div>
             <div class="contactUs">
-              <div class="align-center"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
-              <div class="align-center"><p class="infoItem"><?php the_field('adress_street') . "," . the_field('adress_number');?></p></div>
+              <div class="mr-2"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
+              <div class="mr-2"><p class="infoItem"><?php the_field('adress_street') . ", " . the_field('adress_number');?></p></div>
             </div>
             <div class="contactUs">
-              <div class="align-center"></div>
-              <div class="align-center"><p class="infoItem"><?php the_field('adress_city');?></p></div>
+              <div class="mr-2"></div>
+              <div class="mr-2"><p class="infoItem"><?php the_field('adress_city');?></p></div>
             </div>
             <div class="contactUs">
-              <div class="align-center"></div>              
-              <div class="align-center"><p class="infoItem"><?php the_field('adress_country');?></p></div>
+              <div class="mr-2"></div>              
+              <div class="mr-2"><p class="infoItem"><?php the_field('adress_country');?></p></div>
             </div>
             <div class="contactUs">
-              <div class="align-center"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
-              <div class="align-center"><p class="infoItem"><?php the_field('email');?> </p></div>  
+              <div class="mr-2"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
+              <div class="mr-2"><p class="infoItem"><?php the_field('email');?> </p></div>  
             </div>
           </div>
         </div>
