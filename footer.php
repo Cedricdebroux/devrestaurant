@@ -20,7 +20,7 @@
       ];
       wp_nav_menu( $args );
     ?>
-
+    <!---- AREA ONE ----->
     <div class="row">
       <div class="footer row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
@@ -50,7 +50,7 @@
           </div>
         </div>
 
-
+        <!---- AREA TWO ----->
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <div class="h5">Opening Hours</div>
           <div class="row openingHours">
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-
+        <!---- AREA THREE ----->
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <div class="d-flex align-items-center">
             <div class="infoUser">
@@ -115,9 +115,18 @@
             </div>
           </div>
         </div>
-
-
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
+      <!---- AREA FOUR ----->
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <a href="<?php the_field('instagram_link', 'options');?>" alt=""><div class="h5 pb-2">Instagram</div></a>
+          <div class="instaPictures">
+            <img src="<?php the_field('image_1', 'options');?>" alt="">
+            <img src="<?php the_field('image_2', 'options');?>" alt="">
+            <img src="<?php the_field('image_3', 'options');?>" alt="">
+            <img src="<?php the_field('image_4', 'options');?>" alt="">
+            <img src="<?php the_field('image_5', 'options');?>" alt="">
+            <img src="<?php the_field('image_6', 'options');?>" alt="">
+          </div>
+        </div>
 
 
       </div>
