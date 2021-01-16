@@ -282,13 +282,13 @@ article.post {
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
-@media all and (max-width: 1400px) AND (min-width: 1200px){
+@media only screen and (max-width: 1400px) AND (min-width: 1200px){
   .instaPictures img {
     max-width: 100px !important;
   }
   .instaPictures {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     cursor: pointer;
     justify-content: center;
     gap: 10px;
