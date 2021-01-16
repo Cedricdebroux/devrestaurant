@@ -482,5 +482,12 @@ footer .socialNetwork img {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   cursor: pointer;
+  justify-content: center;
+  gap: 10px;
+}
 
+.instaPictures img {
+    margin: 0 ;
+    width:200px;
+    height:200px;
 }
