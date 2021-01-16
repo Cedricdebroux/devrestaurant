@@ -92,11 +92,11 @@
               <div class="h5 pb-2">Contact Us</div>
               <div class="contactUs mt-20px">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('phone_number');?></p></div>
+                <div><p class="infoItem"><?php the_field('test');?></p></div>
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('adress_street') . ", " . the_field('adress_number');?></p></div>
+                <div><p class="infoItem"><?php the_field('test2') . ", " . the_field('adress_number');?></p></div>
               </div>
               <div class="contactUs">
                 <div></div>
