@@ -491,12 +491,12 @@ footer .socialNetwork img {
   word-wrap: break-word;
   cursor:pointer;
 }
-.infoItem .email a {
+.email a {
   color: #fff;
   text-decoration: none;
 
 }
-.infoItem .email a:hover {
+.email a:hover {
   font-size: 16px;
   transition-duration: 1s;
 }
