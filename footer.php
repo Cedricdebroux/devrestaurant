@@ -23,7 +23,7 @@
     <!---- AREA ONE ----->
     <div class="row">
       <div class="footer row">
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
         <div class="h2"><?php the_field('footer_title_description', 'options');?></div>
         <p><?php the_field('footer_description', 'options');?></p>
           <div class="d-flex flex-row bd-highlight socialNetwork">
@@ -51,7 +51,7 @@
         </div>
 
         <!---- AREA TWO ----->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
           <div class="h5">Opening Hours</div>
           <div class="row openingHours">
             <div class="gridHr">
@@ -88,7 +88,7 @@
         </div>
 
         <!---- AREA THREE ----->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
           <div class="d-flex align-items-center">
             <div class="infoUser">
               <div class="h5 pb-2">Contact Us</div>
@@ -116,7 +116,7 @@
           </div>
         </div>
       <!---- AREA FOUR ----->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
           <a href="<?php the_field('instagram_link', 'options');?>" alt=""><div class="h5 pb-2">Instagram</div></a>
           <div class="instaPictures">
             <img class="insta" src="<?php the_field('image_1', 'options');?>" alt="">
