@@ -87,30 +87,32 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-three');?>
           <div class="infoUser mt-3">
             <div class="row row-cols-2">
-              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="">
-              <p class="col-10 infoItem"><?php the_field('phone_number');?></p> 
+              <img class="col-1" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="">
+              <p class="col-11 infoItem"><?php the_field('phone_number');?></p> 
             </div>
             <div class="row row-cols-2">
-              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="">
-              <p class="col-10 infoItem"><?php the_field('adress_street');?></p>
+              <img class="col-1" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="">
+              <p class="col-11 infoItem"><?php the_field('adress_street');?></p>
             </div>
             <div class="row row-cols-2">
-              <div class="col-2"></div>
-              <p class="col-10 infoItem"><?php the_field('adress_number');?></p>
+              <div class="col-1"></div>
+              <p class="col-11 infoItem"><?php the_field('adress_number');?></p>
             </div>
             <div class="row row-cols-2">
-              <div class="col-2"></div>              
-              <p class="col-10 infoItem"><?php the_field('adress_country');?></p>
+              <div class="col-1"></div>              
+              <p class="col-11 infoItem"><?php the_field('adress_country');?></p>
             </div>
             <div class="row row-cols-2">
-              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="">
-              <p class="col-10 infoItem"><?php the_field('email');?> </p>  
+              <img class="col-1" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="">
+              <p class="col-11 infoItem"><?php the_field('email');?> </p>  
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
       </div>
     </div>
+
+
     <div class="row d-flex justify-content-center">
       <div class="text-center p-3">
         <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
