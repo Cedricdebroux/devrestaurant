@@ -56,7 +56,7 @@
               <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
               <div class="dayOpen">Mondays</div> 
               <div class="middle"><hr></div>
-              <div class="rightSide"><?php the_field('monday');?></div>
+              <div class="rightSide"><?php the_field('monday', 'options');?></div>
           </div>
             </div>
             <div class="row openingHours">
@@ -64,7 +64,7 @@
                 <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Tue - Fri</div> 
                 <div class="middle"><hr></div>
-                <div class="rightSide"><?php the_field('tue-fri');?></div>
+                <div class="rightSide"><?php the_field('tue-fri', 'options');?></div>
               </div>
             </div>
             <div class="row openingHours">
@@ -72,7 +72,7 @@
                 <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Sat - Sun</div> 
                 <div class="middle"><hr></div>
-                <div class="rightSide"><?php the_field('sat-sun');?></div>
+                <div class="rightSide"><?php the_field('sat-sun', 'options');?></div>
               </div>
             </div>
             <div class="row openingHours">
@@ -80,7 +80,7 @@
                 <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Public Holidays</div> 
                 <div class="middle"><hr></div>
-                <div class="rightSide"><?php the_field('public_holidays');?></div>
+                <div class="rightSide"><?php the_field('public_holidays', 'options');?></div>
               </div>
             </div>
         </div>
@@ -92,11 +92,11 @@
               <div class="h5 pb-2">Contact Us</div>
               <div class="contactUs mt-20px">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('test');?></p></div>
+                <div><p class="infoItem"><?php the_field('phone_number', 'options');?></p></div>
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('test2', 'options') . ", " . the_field('adress_number');?></p></div>
+                <div><p class="infoItem"><?php the_field('adress_street', 'options' ) . ", " . the_field('adress_number', 'options');?></p></div>
               </div>
               <div class="contactUs">
                 <div></div>
@@ -104,11 +104,11 @@
               </div>
               <div class="contactUs">
                 <div></div>              
-                <div><p class="infoItem"><?php the_field('adress_country');?></p></div>
+                <div><p class="infoItem"><?php the_field('adress_country', 'options');?></p></div>
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('email');?> </p></div>  
+                <div><p class="infoItem"><?php the_field('email', 'options');?> </p></div>  
               </div>
             </div>
           </div>
