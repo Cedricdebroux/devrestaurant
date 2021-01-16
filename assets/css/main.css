@@ -428,7 +428,7 @@ footer svg {
   justify-content: start;
   margin-top: 0;
 }
-.openingHours svg {
+.openingHours img {
   margin-top: 0;
 }
 .dayOpen,
@@ -449,4 +449,13 @@ footer svg {
   margin: 1.2rem 15px 1rem 15px;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: start;
+}
+
+.logoFooter {
+  width: 15px;
 }

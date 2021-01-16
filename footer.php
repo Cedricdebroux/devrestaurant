@@ -87,15 +87,7 @@
           <div class="h5">Opening Hours</div>
           <div class="row openingHours">
               <div class="gridHr">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
-                <g id="time-clock" transform="translate(-1 -1)">
-                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                </g>
-              </svg></div>
+                <div><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Mondays</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('monday');?></div>
@@ -103,15 +95,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
-                <g id="time-clock" transform="translate(-1 -1)">
-                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                </g>
-              </svg></div>
+                <div><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Tue - Fri</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('tue-fri');?></div>
@@ -119,15 +103,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
-                <g id="time-clock" transform="translate(-1 -1)">
-                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                </g>
-              </svg></div>
+                <div><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Sat - Sun</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('sat-sun');?></div>
@@ -135,15 +111,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17.979 17.979">
-                <g id="time-clock" transform="translate(-1 -1)">
-                  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.489" cy="8.489" r="8.489" transform="translate(1.5 1.5)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/>
-                  <path id="Path_1469" data-name="Path 1469" d="M5.5,5.5,9.138,9.138H15.2" transform="translate(0.851 0.851)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_191" data-name="Line 191" y2="1.213" transform="translate(9.989 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_192" data-name="Line 192" y1="1.213" transform="translate(9.989 14.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                  <line id="Line_193" data-name="Line 193" x2="1.213" transform="translate(3.926 9.989)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
-                </g>
-              </svg></div>
+                <div><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Public Holidays</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('public_holidays');?></div>
@@ -155,11 +123,11 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2 text-center"><?php dynamic_sidebar('footer-area-three');?>
           <div class="test mt-3">
             <div class="row row-cols-2">
-              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="" width="20" height="20">
+              <img class="col-2 logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt="" width="20" height="20">
               <p class="col-10 infoItem"><?php the_field('phone_number');?></p> 
             </div>
             <div class="row row-cols-2">
-              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="" width="20" height="20">
+              <img class="col-2 logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="" width="20" height="20">
               <p class="col-10 infoItem"><?php the_field('adress_street');?></p>
             </div>
             <div class="row row-cols-2">
@@ -171,7 +139,7 @@
               <p class="col-10 infoItem"><?php the_field('adress_country');?></p>
             </div>
             <div class="row row-cols-2">
-              <img class="col-2"src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="" width="20" height="20">
+              <img class="col-2 logoFooter"src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt="" width="20" height="20">
               <p class="col-10 infoItem"><?php the_field('email');?> </p>  
             </div>
             
