@@ -87,7 +87,7 @@
           <div class="h5">Opening Hours</div>
           <div class="row openingHours">
               <div class="gridHr">
-                <div class="d-flex align-items-center"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
+                <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Mondays</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('monday');?></div>
@@ -95,7 +95,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div class="d-flex align-items-center"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
+                <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Tue - Fri</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('tue-fri');?></div>
@@ -103,7 +103,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div class="d-flex align-items-center"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
+                <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Sat - Sun</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('sat-sun');?></div>
@@ -111,7 +111,7 @@
             </div>
             <div class="row openingHours">
               <div class="gridHr">
-                <div class="d-flex align-items-center"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
+                <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
                 <div class="dayOpen">Public Holidays</div> 
                 <div class="middle"><hr></div>
                 <div class="rightSide"><?php the_field('public_holidays');?></div>
