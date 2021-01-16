@@ -474,3 +474,8 @@ footer .socialNetwork img {
   justify-content: start;
   align-items: center;
 }
+
+.align-center {
+  display: grid;
+  align-items: center;
+}
