@@ -489,6 +489,16 @@ footer .socialNetwork img {
 }
 .infoItem .email {
   word-wrap: break-word;
+  cursor:pointer;
+}
+.infoItem .email a {
+  color: #fff;
+  text-decoration: none;
+
+}
+.infoItem .email a:hover {
+  font-size: 16px;
+  transition-duration: 1s;
 }
 .instaPictures img:hover {
   animation: bounceIn 1s forwards; 
