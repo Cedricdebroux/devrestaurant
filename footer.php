@@ -119,7 +119,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <a href="<?php the_field('instagram_link', 'options');?>" alt=""><div class="h5 pb-2">Instagram</div></a>
           <div class="instaPictures">
-            <img src="<?php the_field('image_1', 'options');?>" alt="">
+            <div class="insta"><?php the_field('image_1', 'options');?></div>
             <img src="<?php the_field('image_2', 'options');?>" alt="">
             <img src="<?php the_field('image_3', 'options');?>" alt="">
             <img src="<?php the_field('image_4', 'options');?>" alt="">
