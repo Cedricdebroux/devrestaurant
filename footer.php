@@ -91,8 +91,8 @@
               <p class="col-11 infoItem"><?php the_field('phone_number');?></p> 
             </div>
             <div class="row row-cols-2">
-              <img class="col-1" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="">
-              <p class="col-11 infoItem"><?php the_field('adress_street');?>,<p class="col-11 infoItem"><?php the_field('adress_number');?></p></p>
+              <img class="col-2" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt="">
+              <p class="col-10 infoItem"><?php the_field('adress_street') . "," . the_field('adress_number');?></p>
             </div>
             <div class="row row-cols-2">
               <div class="col-1"></div>
