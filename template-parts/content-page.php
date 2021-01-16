@@ -36,7 +36,7 @@
     <?php 
       if(have_rows('category2')) :
         while(have_rows('category2')) : the_row();
-          the_sub_field('category_title');
+          the_sub_field('category_title2');
         endwhile;  
       endif;  
     ?>
@@ -58,7 +58,7 @@
     <?php 
       if(have_rows('category3')) :
         while(have_rows('category3')) : the_row();
-          the_sub_field('category_title');
+          the_sub_field('category_title3');
         endwhile;  
       endif;  
     ?>
