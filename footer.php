@@ -85,30 +85,30 @@
           
       </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-          <div class="h5">Opening Hours</div>
-            <div class="infoUser mt-3">
-              <div class="contactUs">
-                <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('phone_number');?></p></div>
-              </div>
-              <div class="contactUs">
-                <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('adress_street') . ", " . the_field('adress_number');?></p></div>
-              </div>
-              <div class="contactUs">
-                <div></div>
-                <div><p class="infoItem"><?php the_field('adress_city');?></p></div>
-              </div>
-              <div class="contactUs">
-                <div></div>              
-                <div><p class="infoItem"><?php the_field('adress_country');?></p></div>
-              </div>
-              <div class="contactUs">
-                <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('email');?> </p></div>  
-              </div>
+        <div class="h5">Opening Hours</div>
+          <div class="infoUser mt-3">
+            <div class="contactUs">
+              <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
+              <div><p class="infoItem"><?php the_field('phone_number');?></p></div>
+            </div>
+            <div class="contactUs">
+              <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
+              <div><p class="infoItem"><?php the_field('adress_street') . ", " . the_field('adress_number');?></p></div>
+            </div>
+            <div class="contactUs">
+              <div></div>
+              <div><p class="infoItem"><?php the_field('adress_city');?></p></div>
+            </div>
+            <div class="contactUs">
+              <div></div>              
+              <div><p class="infoItem"><?php the_field('adress_country');?></p></div>
+            </div>
+            <div class="contactUs">
+              <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
+              <div><p class="infoItem"><?php the_field('email');?> </p></div>  
             </div>
           </div>
+        </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
       </div>
