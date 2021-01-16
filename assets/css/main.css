@@ -409,14 +409,13 @@ footer.site-footer {
 #linkedin {
   background-color: #0077b4;
 }
-footer svg {
+footer .socialNetwork img {
   overflow: visible;
   vertical-align: middle;
   padding: 15px;
   font-size: 30px;
-  width: 40px;
-  height: 40px;
-  padding: 13px;
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
   margin-top: 20px;
 }
@@ -461,6 +460,7 @@ footer svg {
 }
 
 .infoUser img {
+  margin-top:2px;
   width: 15px;
   height:15px;
 }
