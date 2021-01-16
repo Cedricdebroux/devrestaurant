@@ -47,15 +47,17 @@
             </a>
           </div>
         </div>
+
+
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
           <div class="h5">Opening Hours</div>
           <div class="row openingHours">
-              <div class="gridHr">
-                <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
-                <div class="dayOpen">Mondays</div> 
-                <div class="middle"><hr></div>
-                <div class="rightSide"><?php the_field('monday');?></div>
-              </div>
+            <div class="gridHr">
+              <div class="d-flex align-items-center mr-2"><img class="logoFooter" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/time-clock-1.svg" alt=""></div>
+              <div class="dayOpen">Mondays</div> 
+              <div class="middle"><hr></div>
+              <div class="rightSide"><?php the_field('monday');?></div>
+          </div>
             </div>
             <div class="row openingHours">
               <div class="gridHr">
@@ -81,11 +83,12 @@
                 <div class="rightSide"><?php the_field('public_holidays');?></div>
               </div>
             </div>
-         
-          
-      </div>
+        </div>
+        </div>
+
+
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-        <div class="h5">Opening Hours</div>
+          <div class="h5">Contact Us</div>
           <div class="infoUser mt-3">
             <div class="contactUs">
               <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/call-10-1.svg" alt=""></div>
@@ -109,8 +112,11 @@
             </div>
           </div>
         </div>
-        </div>
+
+
         <div class="col-lg-3 col-md-6 col-sm-12 mb-2"><?php dynamic_sidebar('footer-area-four');?></div>
+
+
       </div>
     </div>
 
