@@ -96,11 +96,11 @@
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/place-14-1.svg" alt=""></div>
-                <div><p class="infoItem"><?php the_field('test2') . ", " . the_field('adress_number');?></p></div>
+                <div><p class="infoItem"><?php the_field('test2', 'options') . ", " . the_field('adress_number');?></p></div>
               </div>
               <div class="contactUs">
                 <div></div>
-                <div><p class="infoItem"><?php the_field('adress_city');?></p></div>
+                <div><p class="infoItem"><?php the_field('adress_city', 'options');?></p></div>
               </div>
               <div class="contactUs">
                 <div></div>              
