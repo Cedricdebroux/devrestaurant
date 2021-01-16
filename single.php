@@ -14,12 +14,12 @@
 
       <?php endif; ?>
 
-      <p>Template: single.php</p>
+      <p>Template: single.php for restaurant</p>
 
     </main>
 
   </div>
 
-  <?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>
