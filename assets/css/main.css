@@ -470,7 +470,7 @@ footer .socialNetwork img {
 }
 .contactUs {
   display: grid;
-  grid-template-columns: 20px auto;
+  grid-template-columns: 30px auto;
   justify-content: start;
   align-content: center;
 }
