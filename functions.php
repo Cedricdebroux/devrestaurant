@@ -145,6 +145,18 @@ function register_widget_areas() {
 
 
 
+ // For The Option Page : 
+
+
+ if(function_exists('acd_add_options_page')){
+   acf_add_options_page();
+ }
+
+
+
+
+
+
 
 
 
