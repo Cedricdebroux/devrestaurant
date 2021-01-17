@@ -535,4 +535,48 @@ footer .socialNetwork img {
   100% { 
       transform: scale(1); 
   } 
-} 
+}  
+
+/****************** CALL TO ACTION ********************************/
+
+.callToAction {
+  position: relative;
+  left: 50%;
+  margin-bottom:-100px;
+  transform: translateX(-50%);
+  background-color:#292929;
+  width: 50%;
+  height:auto;
+  border-radius:1px;
+  color:white;
+}
+
+.callToAction .btn {
+  border-radius:5px;
+  padding:3px;
+  margin-left:10px;
+  background-color:white;
+  color:black;
+  font-weight:bold;
+}
+
+.callToAction .h1 {
+  font-weight:bold;
+}
+@media only screen and (max-width: 850px){ 
+  .callToAction .call {
+  position: relative;
+  background-color:grey;
+  width: 100%;
+  height:auto;
+  border-radius:10px;
+  }
+  .callToAction .btn, 
+  .callToAction input, 
+  .callToAction .h1 {
+    margin-bottom:30px;
+  }
+}
+
+
+/****************** END CALL TO ACTION ****************************/

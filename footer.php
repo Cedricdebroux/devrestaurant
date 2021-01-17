@@ -1,6 +1,21 @@
 
   </div><!-- #content -->
 
+<!-- CALL TO ACTION -->
+  <div class="callToAction">
+    <div class="row p-5">
+      <div class="col-md-4 p-5">
+        <h3 class="h1 p-2">Join Our Newsletter</h3>
+      </div>
+      <div class="col-md-8 d-flex justify-content-center align-items-center">
+        <div class="row ml-5">
+          <input type="text" placeholder="Your Email Adress" class="">
+          <button type="button" class="btn btn-lg btn-1 p-2">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END CALL TO ACTION -->
   <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="shapeDivider mb-5"><?php dynamic_sidebar('footer-area-divider');?></div>
     <?php
