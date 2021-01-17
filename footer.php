@@ -119,12 +119,12 @@
         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
           <a href="<?php the_field('instagram_link', 'options');?>" alt=""><div class="h5 pb-2">Instagram</div></a>
           <div class="instaPictures">
-            <img class="insta" src="<?php the_field('image_1', 'options');?>" alt="">
-            <img class="insta" src="<?php the_field('image_2', 'options');?>" alt="">
-            <img class="insta" src="<?php the_field('image_3', 'options');?>" alt="">
-            <img class="insta" src="<?php the_field('image_4', 'options');?>" alt="">
-            <img class="insta" src="<?php the_field('image_5', 'options');?>" alt="">
-            <img class="insta" src="<?php the_field('image_6', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_1', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_2', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_3', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_4', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_5', 'options');?>" alt="">
+            <img class="insta img-fluid" src="<?php the_field('image_6', 'options');?>" alt="">
           </div>
         </div>
 
