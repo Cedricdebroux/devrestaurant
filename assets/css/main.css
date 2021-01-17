@@ -283,7 +283,7 @@ article.post {
 -----------------------------------------------------------------------------------------------*/
 
 .menu1 .hr1, .menu2 .hr1, .menu3 .hr1 {
-  margin: 1rem 15px 1rem 15px;
+  margin: 1.4rem 0px 1rem 0px;
   color:white;
   border-top: 2px dotted black !important;
   border-radius:5%;
