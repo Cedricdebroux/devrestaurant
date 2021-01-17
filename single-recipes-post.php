@@ -23,13 +23,10 @@
             <?php the_content(); ?>
 
             <?php the_field('description');?>
+            <?php the_field('ingredients');?>
             <?php the_field('instructions');?>
 
-            <p>
-              <a class="button" href="<?php the_field( 'url' ); ?>">
-                <?php esc_html_e( 'Visit the Site', 'TPrestaurant' ); ?>
-              </a>
-            </p>
+           
 
           </div>
 
