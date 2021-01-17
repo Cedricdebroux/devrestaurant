@@ -565,6 +565,7 @@ footer .socialNetwork img {
 .callToAction .h1 {
   font-weight:700;
   color:white;
+  font-size: 46px;
 }
 
 @media only screen and (max-width: 850px){ 
