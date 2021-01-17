@@ -549,6 +549,7 @@ footer .socialNetwork img {
   width: 50%;
   height:auto;
   border-radius:1px;
+  box-shadow: 0px 10px 10px #292929;
 }
 
 .callToAction .btn {
@@ -562,6 +563,7 @@ footer .socialNetwork img {
 
 .callToAction .h1 {
   font-weight:bold;
+  color:white;
 }
 
 @media only screen and (max-width: 850px){ 
