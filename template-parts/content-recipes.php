@@ -13,6 +13,7 @@
   <div class="entry-content">
 
     <?php the_excerpt(); ?>
+    <?php the_field('description', 'options');?>
 
   </div>
 
