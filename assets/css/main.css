@@ -285,8 +285,7 @@ article.post {
 @media only screen and (min-width: 2880px){ /*For Retina screen*/
   .instaPictures img {
     max-width: 100px !important;
-    box-sizing: content-box;
-    width: 100%;
+    
   }
   .instaPictures {
     display: grid;
@@ -294,6 +293,8 @@ article.post {
     cursor: pointer;
     justify-content: center;
     gap: 10px;
+    box-sizing: content-box;
+    width: 100%;
   }
 }
 
