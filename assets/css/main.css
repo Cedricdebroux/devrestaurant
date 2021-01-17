@@ -293,7 +293,11 @@ article.post {
   border-left-width:0px;
 
 }
-
+.gridMenu {
+  display:grid;
+  grid-template-columns: auto 1fr auto;
+  position:relative;
+}
 
 
 /* ----------------------------------------------------------------------------------------------
