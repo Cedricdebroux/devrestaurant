@@ -30,16 +30,12 @@
       if(have_rows('menu1')) :
         while(have_rows('menu1')) : the_row(); ?>
             <div class="container row row-cols-3">
-              <div class="col"> 
-                <div class="">
-                  <?php the_sub_field('name_of_the_meal');?>
-                </div> 
-                <div class="mealDescription">
-                  <?php the_sub_field('description_of_the_meal');?>
-                </div>
-              </div>
+              <div class="col"><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
               <div class="col"><hr class="hr1"></div>
-              <div class="col"> <?php the_sub_field('price_of_the_meal');?> </div>
+              <div class="col"><?php the_sub_field('price_of_the_meal');?> </div>
+              <div class="mealDescription">
+                <?php the_sub_field('description_of_the_meal');?>
+              </div>
             </div>
        <?php endwhile;  
       endif;  
