@@ -2,11 +2,7 @@
 
   <header class="entry-header">
 
-    <?php the_title( '<h2><a href="' . get_the_permalink() .'">', '</a></h2>' ); ?>
-
-    <a href="<?php the_permalink(); ?>">
-      <?php the_post_thumbnail( 'full' ); ?>
-    </a>
+   
 
   </header>
 
@@ -18,10 +14,12 @@
 
 
 
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-7">
+    <a href="<?php the_permalink(); ?>">
     <?php the_post_thumbnail( 'full' ); ?>
+    </a>
     </div>
     <div class="col-md-5">
       <div class="card-body">
