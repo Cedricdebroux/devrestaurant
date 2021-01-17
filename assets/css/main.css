@@ -306,10 +306,11 @@ article.post {
   font-weight: 400;
   color: #707070;
 }
-.menuPrice {
+.menuPrice, .menuTitle{
   color:black;
 }
 
+}
 .mealDescription {
   margin-bottom: 10px;
 }
