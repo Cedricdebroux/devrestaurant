@@ -511,6 +511,7 @@ footer .socialNetwork img {
 .email a {
   color: #fff;
   text-decoration: none;
+  transition-duration: 1s;
 
 }
 .email a:hover {
