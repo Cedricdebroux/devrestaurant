@@ -3,6 +3,7 @@
 
 <!-- CALL TO ACTION -->
   <div class="callToAction">
+    <div class="shapeDivider mb-5"><?php dynamic_sidebar('footer-area-divider');?></div>
     <div class="row p-5">
       <div class="col-md-4 p-5">
         <h3 class="h1 p-2">Join Our Newsletter</h3>
