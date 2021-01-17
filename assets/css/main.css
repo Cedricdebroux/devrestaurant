@@ -550,7 +550,7 @@ footer .socialNetwork img {
   width: 78.5%;
   height:auto;
   border-radius:1px;
-  box-shadow: 0px 10px 10px #292929;
+  box-shadow: 0px 10px 10px black;
 }
 
 .callToAction .btn {
@@ -577,6 +577,9 @@ footer .socialNetwork img {
   }
   .callToAction .btn , .callToAction input, .callToAction .h1 {
     margin-bottom:30px;
+  }
+  .callToAction input {
+    width: 80%;
   }
 }
 
