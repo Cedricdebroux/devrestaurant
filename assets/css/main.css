@@ -297,7 +297,7 @@ article.post {
   display:grid;
   grid-template-columns: auto 1fr auto;
   position:relative;
-  height: 24px;
+  height: 30px;
 }
 .menu1 {
   width: 80%;
