@@ -22,10 +22,8 @@
 
             <?php the_content(); ?>
 
-            <p>
-              Skills:
-              <?php the_terms( $post->ID, 'skills' ); ?>
-            </p>
+            <?php the_sub_field('description');?>
+            <?php the_sub_field('instructions');?>
 
             <p>
               <a class="button" href="<?php the_field( 'url' ); ?>">

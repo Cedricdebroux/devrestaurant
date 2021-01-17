@@ -13,7 +13,8 @@
   <div class="entry-content">
 
     <?php the_excerpt(); ?>
-    <?php the_field('description', 'options');?>
+    <?php the_sub_field('description');?>
+    
 
   </div>
 

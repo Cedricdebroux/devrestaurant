@@ -143,7 +143,7 @@ function register_widget_areas() {
   
   add_action( 'widgets_init', 'register_widget_areas' );
 
-  
+
 //acf recipe
 
   if( function_exists('acf_add_local_field_group') ):
@@ -385,6 +385,8 @@ function register_widget_areas() {
     ));
     
     endif;
+
+    
  // For The Option Page : 
 
 
