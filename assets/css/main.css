@@ -546,7 +546,7 @@ footer .socialNetwork img {
   margin-bottom:-100px;
   transform: translateX(-50%);
   background-color:#292929;
-  width: 50%;
+  width: 78.5%;
   height:auto;
   border-radius:1px;
   box-shadow: 0px 10px 10px #292929;
@@ -558,11 +558,11 @@ footer .socialNetwork img {
   margin-left:10px;
   background-color:white;
   color:black;
-  font-weight:bold;
+  font-weight:500;
 }
 
 .callToAction .h1 {
-  font-weight:bold;
+  font-weight:700;
   color:white;
 }
 
