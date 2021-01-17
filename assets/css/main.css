@@ -544,11 +544,10 @@ footer .socialNetwork img {
   left: 50%;
   margin-bottom:-100px;
   transform: translateX(-50%);
-  background-color:#292929;
+  background-color:grey;
   width: 50%;
   height:auto;
   border-radius:1px;
-  color:white;
 }
 
 .callToAction .btn {
@@ -563,17 +562,16 @@ footer .socialNetwork img {
 .callToAction .h1 {
   font-weight:bold;
 }
+
 @media only screen and (max-width: 850px){ 
-  .callToAction .call {
+  .callToAction {
   position: relative;
   background-color:grey;
   width: 100%;
   height:auto;
-  border-radius:10px;
+  border-radius:1px;
   }
-  .callToAction .btn, 
-  .callToAction input, 
-  .callToAction .h1 {
+  .callToAction .btn , .callToAction input, .callToAction .h1 {
     margin-bottom:30px;
   }
 }
