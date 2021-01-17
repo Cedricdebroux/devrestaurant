@@ -93,5 +93,4 @@
 </div>
 </div>
   </div>
-<!-- juste pour un commit -->
 </article>
