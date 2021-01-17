@@ -540,11 +540,12 @@ footer .socialNetwork img {
 /****************** CALL TO ACTION ********************************/
 
 .callToAction {
+  font-family: Poppins, sans-serif;
   position: relative;
   left: 50%;
   margin-bottom:-100px;
   transform: translateX(-50%);
-  background-color:grey;
+  background-color:#292929;
   width: 50%;
   height:auto;
   border-radius:1px;
@@ -566,7 +567,7 @@ footer .socialNetwork img {
 @media only screen and (max-width: 850px){ 
   .callToAction {
   position: relative;
-  background-color:grey;
+  background-color:#292929;
   width: 100%;
   height:auto;
   border-radius:1px;
