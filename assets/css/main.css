@@ -311,12 +311,18 @@ article.post {
 }
 .mealDescription {
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .chefSelection {
-  border: 1px solid orange;
+  border: 2px solid #e1c303;
 }
 
+.chefBox {
+  width: 30px;
+  background-color: #e1c303;
+  color: white;
+}
 
 
 /* ----------------------------------------------------------------------------------------------

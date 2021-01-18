@@ -31,6 +31,7 @@
         while(have_rows('menu1')) : the_row(); 
           $sub_value = get_sub_field('chef_selection');
           if( $sub_value == 1) :?>
+            <div class="chefBox">Chef Selection</div>
             <div class="chefSelection">
               <div class="gridMenu">
                 <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
