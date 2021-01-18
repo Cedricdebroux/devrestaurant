@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div  class="container-fluid">
+  <div>
 
     <main id="main" class="site-main" role="main">
 
