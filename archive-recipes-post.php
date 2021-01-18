@@ -20,7 +20,9 @@
 
       <p>Template: archive-recipes-post.php</p>
 
-    </main>
+      </main>
+
+</div>
 
 
 
