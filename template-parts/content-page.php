@@ -101,7 +101,15 @@
     endwhile; 
   endif;  
     ?>
-</p>
+ <p class="h2 mt-3 d-flex justify-content-center theMenu_category">
+        <?php 
+          if(have_rows('category3')) :
+            while(have_rows('category3')) : the_row();
+              the_sub_field('category_title');
+            endwhile;  
+          endif;  
+        ?>
+    </p>
 <div class="menu3">
 <?php 
   if(have_rows('menu3')) :
