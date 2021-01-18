@@ -14,7 +14,7 @@
 
       <?php endif; ?>
 
-      <p>Template: page.php</p>
+    
 
     </main>
 
