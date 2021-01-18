@@ -311,7 +311,8 @@ article.post {
   color:black;
 }
 .menuPrice {
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 500;
 }
 .mealDescription {
   margin-bottom: 20px;
