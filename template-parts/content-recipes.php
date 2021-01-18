@@ -1,4 +1,4 @@
-<div id="primary" class="content-area extended">
+<div  class="container-fluid">
 
     <main id="main" class="site-main" role="main">
 <article id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
