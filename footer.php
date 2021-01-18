@@ -37,7 +37,7 @@
       wp_nav_menu( $args );
     ?>
     <!---- AREA ONE ----->
-    <div class="row mt-5">
+    <div class="mt-5">
       <div class="footer row">
         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
         <div class="h2"><?php the_field('footer_title_description', 'options');?></div>
