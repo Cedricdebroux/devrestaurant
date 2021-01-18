@@ -100,6 +100,7 @@
     endwhile; 
   endif;  
     ?>
+  </div>
 <p class="h2 mt-3 d-flex justify-content-center theMenu_category">
   <?php 
     if(have_rows('category3')) :
@@ -110,38 +111,38 @@
   ?>
 </p>
 <div class="menu3">
-<?php 
-  if(have_rows('menu3')) :
-    while(have_rows('menu3')) : the_row(); 
-      $sub_value = get_sub_field('chef_selection'); 
-      if( $sub_value == 1) :?>
-        <div class="chefBox">CHEF SELECTION</div>
-        <div class="chefSelection">
-          <div class="gridMenu">
-            <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
-            <div><hr class="hr1 mr-2"></div>
-            <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
+  <?php 
+    if(have_rows('menu3')) :
+      while(have_rows('menu3')) : the_row(); 
+        $sub_value = get_sub_field('chef_selection'); 
+        if( $sub_value == 1) :?>
+          <div class="chefBox">CHEF SELECTION</div>
+          <div class="chefSelection">
+            <div class="gridMenu">
+              <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
+              <div><hr class="hr1 mr-2"></div>
+              <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
+            </div>
+            <div class="mealDescription">
+              <?php the_sub_field('description_of_the_meal');?>
+            </div>
           </div>
-          <div class="mealDescription">
-            <?php the_sub_field('description_of_the_meal');?>
-          </div>
-        </div>
 
-          <?php 
-      else : ?>
-      <div class="gridMenu">
-        <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
-        <div><hr class="hr1 mr-2 "></div>
-        <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
-      </div>
-      <div class="mealDescription">
-        <?php the_sub_field('description_of_the_meal');?>
-      </div>
-        
-    <?php endif;
-    endwhile;  
-  endif;  
-?>
+            <?php 
+        else : ?>
+        <div class="gridMenu">
+          <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
+          <div><hr class="hr1 mr-2 "></div>
+          <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
+        </div>
+        <div class="mealDescription">
+          <?php the_sub_field('description_of_the_meal');?>
+        </div>
+          
+      <?php endif;
+      endwhile;  
+    endif;  
+  ?>
 </div>
 </div>
   </div>
