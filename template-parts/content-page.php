@@ -28,7 +28,9 @@
     <div class="menu1">
     <?php 
       if(have_rows('menu1')) :
-        while(have_rows('menu1')) : the_row(); ?>
+        while(have_rows('menu1')) : the_row(); 
+          if (the_field('chef_selection')) === "Yes" :?>
+              COUCOU JE SUIS Un YES 
             <div class="gridMenu">
               <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
               <div><hr class="hr1"></div>
@@ -37,7 +39,20 @@
             <div class="mealDescription">
               <?php the_sub_field('description_of_the_meal');?>
             </div>
-       <?php endwhile;  
+
+       <?php 
+          else : ?>
+          <div class="gridMenu">
+            <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
+            <div><hr class="hr1"></div>
+            <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
+          </div>
+          <div class="mealDescription">
+            <?php the_sub_field('description_of_the_meal');?>
+          </div>
+        
+       <php endif;
+       endwhile;  
       endif;  
     ?>
     </div>
