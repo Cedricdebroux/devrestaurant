@@ -298,6 +298,7 @@ article.post {
   grid-template-columns: auto 1fr auto;
   position:relative;
   height: 30px;
+  margin: 5px 20px 0px 20px;
 }
 .menu1, .menu2, .menu3 {
   width: 80%;
@@ -319,9 +320,12 @@ article.post {
 }
 
 .chefBox {
-  width: 30px;
+  width: 100px;
   background-color: #e1c303;
   color: white;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
 }
 
 
