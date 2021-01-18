@@ -310,6 +310,9 @@ article.post {
 .menuPrice, .menuTitle{
   color:black;
 }
+.menuPrice {
+  font-weight: 700;
+}
 .mealDescription {
   margin-bottom: 20px;
   margin-left: 20px;
