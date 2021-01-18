@@ -29,7 +29,7 @@
     <?php 
       if(have_rows('menu1')) :
         while(have_rows('menu1')) : the_row(); 
-          if(the_sub_field('chef_selection')) :?>
+          if(the_sub_field('chef_selection') == 1) :?>
             <div class="chefSelection">
               <div class="gridMenu">
                 <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
