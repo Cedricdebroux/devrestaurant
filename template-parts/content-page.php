@@ -51,7 +51,7 @@
             <?php the_sub_field('description_of_the_meal');?>
           </div>
         
-       <php endif;
+       <?php endif;
        endwhile;  
       endif;  
     ?>
