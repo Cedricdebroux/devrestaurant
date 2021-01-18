@@ -326,12 +326,7 @@ article.post {
     
   }
   .instaPictures {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    cursor: pointer;
-    justify-content: center;
-    gap: 10px;
-    box-sizing: content-box;
     width: 100%;
   }
 }
