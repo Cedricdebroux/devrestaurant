@@ -320,12 +320,13 @@ article.post {
 }
 
 .chefBox {
-  width: 100px;
+  width: 119px;
   background-color: #e1c303;
   color: white;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   text-align: center;
+  padding: 2px 0 2px 0;
 }
 
 
