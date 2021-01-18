@@ -297,7 +297,7 @@ article.post {
   display:grid;
   grid-template-columns: auto 1fr auto;
   position:relative;
-  height: 30px;
+  height: 32.5px;
   margin: 5px 20px 0px 20px;
 }
 .menu1, .menu2, .menu3 {
@@ -313,6 +313,7 @@ article.post {
 .mealDescription {
   margin-bottom: 20px;
   margin-left: 20px;
+  width: 80%;
 }
 
 .chefSelection {

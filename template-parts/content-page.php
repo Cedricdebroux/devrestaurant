@@ -35,7 +35,7 @@
             <div class="chefSelection">
               <div class="gridMenu">
                 <div><p class="menuTitle"><?php the_sub_field('name_of_the_meal');?></p></div>
-                <div><hr class="hr1"></div>
+                <div><hr class="hr1 mr-1"></div>
                 <div class="menuPrice"><?php the_sub_field('price_of_the_meal');?>€ </div>
               </div>
               <div class="mealDescription">
