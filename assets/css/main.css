@@ -317,42 +317,7 @@ article.post {
   border: 1px solid orange;
 }
 
-/* ----------------------------------------------------------------------------------------------
--------------------------------------Media Queries ----------------------------------------------
------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 2870px){ /*For Retina screen*/
-  .instaPictures img {
-    max-width: 100px !important;
-    
-  }
-  .instaPictures {
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-  }
-}
 
-@media only screen and (max-width: 720px) {
-  #content {
-    width: 90% !important;
-  }
-  .instaPictures img  {
-    max-width: 100px !important;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .instaPictures img {
-    max-width: 100px !important;
-  }
-  .instaPictures {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  .mealDescription {
-    margin-top:50px;
-  }
-}
 
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------FOOTER------------------------------------------------------
@@ -625,3 +590,41 @@ footer .socialNetwork img {
 
 
 /****************** END CALL TO ACTION ****************************/
+
+
+/* ----------------------------------------------------------------------------------------------
+-------------------------------------Media Queries ----------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 2870px){ /*For Retina screen*/
+  .instaPictures img {
+    max-width: 100px !important;
+    
+  }
+  .instaPictures {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #content {
+    width: 90% !important;
+  }
+  .instaPictures img  {
+    max-width: 100px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .instaPictures img {
+    max-width: 100px !important;
+  }
+  .instaPictures {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .mealDescription {
+    margin-top:50px;
+  }
+}
