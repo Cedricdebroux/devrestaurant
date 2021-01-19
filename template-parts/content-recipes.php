@@ -10,7 +10,7 @@
   <div class="card mb-12 text-center">
   <div class="row no-gutters">
     <div class="col-md-7">
-    <?php the_post_thumbnail( 'full', array('class' => 'img-fluid')); ?> 
+    <?php the_post_thumbnail( 'large', array('class' => 'img-fluid')); ?> 
 
     </div>
     <div class="col-md-5">
