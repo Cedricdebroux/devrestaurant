@@ -101,7 +101,7 @@ footer.site-footer {
   margin: 20px auto;
   padding: 20px;
   width: 80%;
-  max-width: 1020px;
+
   border-radius: 5px;
   position: relative;
   overflow: auto;
@@ -285,7 +285,7 @@ article.post {
   margin: 1.4rem 0px 1rem 0px;
   color:white;
   border-top: 2px dotted black !important;
-  border-radius:5%;
+  border-radius:5px;
   border-top-width:5px;
   border-right-width:0px;
   border-bottom-width:0px;

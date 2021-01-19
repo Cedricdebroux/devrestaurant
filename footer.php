@@ -37,7 +37,7 @@
       wp_nav_menu( $args );
     ?>
     <!---- AREA ONE ----->
-    <div class="row mt-5">
+    <div class="mt-5">
       <div class="footer row">
         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-3">
         <div class="h2"><?php the_field('footer_title_description', 'options');?></div>
@@ -149,7 +149,7 @@
     </div>
 
 
-    <div class="row d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
       <div class="text-center p-3">
         <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
         <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
