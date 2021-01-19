@@ -670,7 +670,7 @@ footer .socialNetwork img {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 770px) {
   #content {
     width: 90% !important;
   }
