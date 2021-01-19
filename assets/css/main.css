@@ -677,6 +677,9 @@ footer .socialNetwork img {
   .instaPictures img {
     max-width: 100px !important;
   }
+  .reserveTable-form {
+    width: 100vw;
+  }
 }
 @media only screen and (max-width: 320px) {
   .instaPictures img {
