@@ -6,7 +6,7 @@
     <!-- NOTRE SUPER BOUCLE ICI -->
     <?php echo $i . "coucou 1"; ?>
     <?php if ($i % 2 == 0) :?> 
-      <?php echo $i; ?>
+      <?php echo $i . "COUCOU 1.2"; ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
           <div class="col-md-7">
