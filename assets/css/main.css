@@ -493,12 +493,16 @@ footer.site-footer {
 #linkedin {
   background-color: #0077b4;
 }
+
+#mail {
+  background-color: black;
+}
 .network {
   border-radius: 50px;
   margin-top: 20px;
 }
 
-footer .socialNetwork img {
+.socialNetwork img {
   overflow: visible;
   vertical-align: middle;
   padding: 15px;

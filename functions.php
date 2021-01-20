@@ -158,17 +158,4 @@ function register_widget_areas() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
