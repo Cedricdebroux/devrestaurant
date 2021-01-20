@@ -21,17 +21,29 @@
 
               <!-- ingredients -->
               <?php the_field('ingretients') ; ?>
+              <ol>
+              <?php if(have_rows('ingredients')) :
+                      while(have_rows('ingredients')) : the_row(); ?>
+                        <li><?php the_sub_field('ingredient')?></li>
+                        <li><?php the_sub_field('quantity')?></li>
+                        <li><?php the_sub_field('unit_of_measure ')?></li>
+              <?php   endwhile;
+                    endif;
+              ?>
+              </ol>
               <!-- serve and preparation time -->
               <?php the_field('serve') ; ?> 
               <!-- intructions (steps) --> <!-- Aside social network -->
               <?php the_field('preparation_time') ; ?>
+              <ol>
               <?php if(have_rows('instructions')) :
                       while(have_rows('instructions')) : the_row(); 
-                      $sub_value = get_sub_field('steps');
-                      echo $sub_value;
-
-                      endwhile;
-                    endif;?>
+                      $sub_value = get_sub_field('steps'); ?>
+                        <li><?php $sub_value ; ?></li>
+              <?php   endwhile;
+                    endif;
+              ?>
+              </ol>
           
               <!-- Latest blog -->
             
