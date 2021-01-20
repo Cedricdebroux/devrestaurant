@@ -5,14 +5,17 @@
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
           <header class="entry-header recipeSinglePageBigHeader">
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
-              <a href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
-              <?php echo get_the_date( 'j F, Y' ); ?>
-              <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
-                    echo $term->name; ?>
-              <?php the_title( '<h1>', '</h1>' ); ?>
+              <div class="recipeSinglePageHeaderList">
+                <a href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
+                <?php echo get_the_date( 'j F, Y' ); ?>
+                <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
+                      echo $term->name; ?>
+                <?php the_title( '<h1>', '</h1>' ); ?>
+              </div>
+
               <!-- Description V-->
               <?php the_field('description') ; ?>
-              <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
+              <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
           </header>
