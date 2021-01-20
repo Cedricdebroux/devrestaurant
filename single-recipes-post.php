@@ -16,10 +16,7 @@
           </header>
           <div class="entry-content">
             <div class="recipeSinglePageContent">
-              <a href="<?php the_permalink(); ?>">
-                <?php the_post_thumbnail( 'full' ); ?> <!-- Image of the recipe V -->
-              </a>
-
+              <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
               <?php the_content(); ?> <!-- Content of the page "Recipe" V -->
 
               <!-- ingredients -->
