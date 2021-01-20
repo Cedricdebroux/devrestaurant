@@ -9,10 +9,11 @@
               <?php echo get_the_date( 'j F, Y' ); ?>
               <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
                     echo $term->name; ?>
+              <?php the_title( '<h1>', '</h1>' ); ?>
+              <!-- Description V-->
+              <?php the_field('description') ; ?>
             </div>
-            <?php the_title( '<h1>', '</h1>' ); ?>
-            <!-- Description V-->
-            <?php the_field('description') ; ?>
+            
           </header>
           <div class="entry-content">
             <div class="recipeSinglePageContent">
