@@ -10,11 +10,11 @@
                 <?php echo get_the_date( 'j F, Y' ); ?>
                 <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
                       echo $term->name; ?>
-                <?php the_title( '<h1>', '</h1>' ); ?>
+                <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
               </div>
 
               <!-- Description V-->
-              <?php the_field('description') ; ?>
+              <p class="mb-3"><?php the_field('description') ; ?></p>
               <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
