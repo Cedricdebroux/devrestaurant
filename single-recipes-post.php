@@ -10,8 +10,8 @@
                 <?php echo get_the_date( 'j F, Y' ); ?>
                 <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
                       echo $term->name; ?>
-                <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
               </div>
+              <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
               <!-- Description V-->
               <p class="mb-3"><?php the_field('description') ; ?></p>
