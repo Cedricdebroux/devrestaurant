@@ -37,9 +37,8 @@
               <?php the_field('preparation_time') ; ?>
               <ol>
               <?php if(have_rows('instructions')) :
-                      while(have_rows('instructions')) : the_row(); 
-                      $sub_value = get_sub_field('steps'); ?>
-                        <li><?php $sub_value ; ?></li>
+                      while(have_rows('instructions')) : the_row(); ?>
+                        <li><?php the_sub_field('steps') ; ?></li>
               <?php   endwhile;
                     endif;
               ?>
