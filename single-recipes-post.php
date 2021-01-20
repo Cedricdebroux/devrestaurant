@@ -18,32 +18,36 @@
             <div class="recipeSinglePageContent">
               <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
               <?php the_content(); ?> <!-- Content of the page "Recipe" V -->
-              <h2>Ingredients</h2>
-              <!-- ingredients -->
-              <?php the_field('ingretients') ; ?>
-              <ul>
-              <?php if(have_rows('ingredients')) :
-                      while(have_rows('ingredients')) : the_row(); ?>
-                        <li><?php the_sub_field('ingredient')?></li>
-                        <li><?php the_sub_field('quantity')?></li>
-                        <li><?php the_sub_field('unit_of_measure')?></li>
-              <?php   endwhile;
-                    endif;
-              ?>
-              </ul>
+              <div class="recipeSingleIngredients">
+                <h2>Ingredients</h2>
+                <!-- ingredients -->
+                <?php the_field('ingretients') ; ?>
+                <ul>
+                <?php if(have_rows('ingredients')) :
+                        while(have_rows('ingredients')) : the_row(); ?>
+                          <li><?php the_sub_field('ingredient')?></li>
+                          <li><?php the_sub_field('quantity')?></li>
+                          <li><?php the_sub_field('unit_of_measure')?></li>
+                <?php   endwhile;
+                      endif;
+                ?>
+                </ul>
+              </div>
               <!-- serve and preparation time -->
               <p>For <?php the_field('serve') ; ?> people - Preparation <?php the_field('preparation_time') ; ?> min</p>
               <!-- intructions (steps) --> <!-- Aside social network -->
-              
-              <h2>Instructions</h2>
-              <ol>
-              <?php if(have_rows('instructions')) :
-                      while(have_rows('instructions')) : the_row(); ?>
-                        <li><?php the_sub_field('steps') ; ?></li>
-              <?php   endwhile;
-                    endif;
-              ?>
-              </ol>
+              <div class="recipeSingleInstructions">
+                <h2>Instructions</h2>
+                <ol>
+                <?php if(have_rows('instructions')) :
+                        while(have_rows('instructions')) : the_row(); ?>
+                          <li><?php the_sub_field('steps') ; ?></li>
+                <?php   endwhile;
+                      endif;
+                ?>
+                </ol>
+              </div>
+
           
               <!-- Latest blog -->
             

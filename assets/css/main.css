@@ -281,6 +281,17 @@ article.post {
 .recipeSinglePageHeader {
   background-color: #292929;
   color: white;
+  width: 80%;
+  margin: auto;
+}
+.recipeSinglePageContent {
+  width: 80%;
+  margin: auto;
+}
+
+.recipeSingleIngredients li {
+  list-style-type: none;
+  display: inline;
 }
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
