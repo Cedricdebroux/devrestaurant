@@ -296,6 +296,7 @@ article.post {
 }
 .recipeSinglePageThumbnail img {
   width: 80%;
+  height: 350px;
   margin-bottom: -120px;
 }
 .recipeSinglePageContent {
