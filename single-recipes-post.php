@@ -18,7 +18,7 @@
             <div class="recipeSinglePageContent">
               <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
               <?php the_content(); ?> <!-- Content of the page "Recipe" V -->
-
+              <h2>Ingredients</h2>
               <!-- ingredients -->
               <?php the_field('ingretients') ; ?>
               <ul>
@@ -35,6 +35,7 @@
               <p>For <?php the_field('serve') ; ?> people - Preparation <?php the_field('preparation_time') ; ?> min</p>
               <!-- intructions (steps) --> <!-- Aside social network -->
               
+              <h2>Instructions</h2>
               <ol>
               <?php if(have_rows('instructions')) :
                       while(have_rows('instructions')) : the_row(); ?>
