@@ -276,6 +276,7 @@ article.post {
 .recipeSinglePageThumbnail {
   width: 100%;
   height: 300px;
+  overflow: hidden;
 }
 .recipeSinglePageHeader {
   background-color: #292929;
