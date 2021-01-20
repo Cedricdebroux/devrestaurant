@@ -3,7 +3,7 @@
   <article id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
-      <?php if ( $i%2==0 ){ ?> 
+      <?php if ( $postAlternanceIndex %2==0 ){ ?> 
         <div class="card mb-12 text-center">
           <div class="row no-gutters">
             <div class="col-md-7">
@@ -19,7 +19,9 @@
             </div>
           </div>
         </div>
-      <?php $i++; ?>
+      <?php $postAlternanceIndex++; ?>
+      <?php echo $postAlternanceIndex . " INCREMENTATIOOOON" ;?>
+
       <?php } else { ?>
         <div class="card mb-12 text-center">
           <div class="row no-gutters">
@@ -36,7 +38,8 @@
             </div>
           </div>
         </div>
-      <?php $i++;
+      <?php $postAlternanceIndex++;
+      echo $postAlternanceIndex . " INCREMENTATIOOOON" ;
       }/*FIN DE IF*/ ?>
 
       <!-- FIN DE NOTRE SUPER BOUCLE ICI -->
