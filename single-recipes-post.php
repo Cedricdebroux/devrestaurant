@@ -26,7 +26,7 @@
                       while(have_rows('ingredients')) : the_row(); ?>
                         <li><?php the_sub_field('ingredient')?></li>
                         <li><?php the_sub_field('quantity')?></li>
-                        <li><?php the_sub_field('unit_of_measure ')?></li>
+                        <li><?php the_sub_field('unit_of_measure')?></li>
               <?php   endwhile;
                     endif;
               ?>
