@@ -290,8 +290,12 @@ article.post {
 }
 
 .recipeSingleIngredients li {
-  list-style-type: none;
-  display: inline;
+  position: relative;
+}
+
+.recipeSingleIngredients li:before {
+  position: absolute;
+  left: -5px;
 }
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
