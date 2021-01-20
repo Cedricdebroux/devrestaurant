@@ -20,6 +20,7 @@
           </div>
         </div>
       </div>
+    <?php $i += 1; ?>
     <?php else : ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
@@ -36,8 +37,8 @@
           </div>
         </div>
       </div>
-    <?php endif; 
-    $i += 1;?>
+    <?php $i += 1;
+      endif; ?>
 
     <!-- FIN DE NOTRE SUPER BOUCLE ICI -->
   </div>
