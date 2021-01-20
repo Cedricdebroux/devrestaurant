@@ -291,7 +291,7 @@ article.post {
 
 .recipeSinglePageThumbnail  {
   width: 100%; /* width of container */
-  height: 400px; /* height of container */
+   /* height of container */
   object-fit: cover;
 }
 .recipeSinglePageThumbnail img {
