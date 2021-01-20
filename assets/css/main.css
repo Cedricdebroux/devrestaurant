@@ -311,7 +311,11 @@ article.post {
 .recipeSinglePageHeaderList {
   width: 100%;
   display: grid;
-  grid-template-columns: 20px auto auto auto;
+  grid-template-columns: 20px auto auto;
+}
+
+.singleRecipeA {
+  display: inline;
 }
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
