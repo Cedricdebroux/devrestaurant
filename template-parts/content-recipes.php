@@ -20,7 +20,6 @@
           </div>
         </div>
       <?php $wp_query->$current_post++; ?>
-      <?php echo $wp_query->$current_post . " INCREMENTATIOOOON" ;?>
 
       <?php } else { ?>
         <div class="card mb-12 text-center">
@@ -39,7 +38,7 @@
           </div>
         </div>
       <?php $wp_query->$current_post++;
-      echo $wp_query->$current_post . " INCREMENTATIOOOON" ;
+
       }/*FIN DE IF*/ ?>
 
       <!-- FIN DE NOTRE SUPER BOUCLE ICI -->
