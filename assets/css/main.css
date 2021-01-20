@@ -278,6 +278,11 @@ article.post {
   height: 400px;
   overflow: hidden;
 }
+
+.recipeSinglePageBigHeader {
+  width: 100%;
+  position: relative;
+}
 .recipeSinglePageHeader {
   background-color: #292929;
   color: white;
@@ -287,6 +292,8 @@ article.post {
   top:0;
   margin-top: -300px;
 }
+
+
 .recipeSinglePageContent {
   width: 80%;
   margin: auto;

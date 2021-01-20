@@ -3,7 +3,7 @@
     <main id="main" class="site-main" role="main">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-          <header class="entry-header">
+          <header class="entry-header recipeSinglePageBigHeader">
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
               <a href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
               <?php echo get_the_date( 'j F, Y' ); ?>
