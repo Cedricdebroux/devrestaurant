@@ -21,6 +21,7 @@
         </div>
       </div>
     <?php $i += 1; ?>
+    <echo $i; ?>
     <?php else : ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
@@ -37,6 +38,7 @@
           </div>
         </div>
       </div>
+      <echo $i; ?>
     <?php $i += 1;
       endif; ?>
 
