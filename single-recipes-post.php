@@ -5,9 +5,9 @@
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
           <header class="entry-header recipeSinglePageBigHeader">
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
-              <div class="recipeSinglePageHeaderList">
+              <div class="recipeSinglePageHeaderList pt-3">
                 <a class="singleRecipeA" href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
-                <?php echo get_the_date( 'j F, Y' ); ?>
+                <p class="ml-4"><?php echo get_the_date( 'j F, Y' ); ?></p>
                 <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
                       echo $term->name; ?>
               </div>
