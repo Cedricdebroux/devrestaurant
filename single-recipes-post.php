@@ -14,7 +14,6 @@
             <!-- Description V-->
             <?php the_field('description') ; ?>
           </header>
-          <?php echo "CONTENT" ; ?>
           <div class="entry-content">
             <div class="recipeSinglePageContent">
               <a href="<?php the_permalink(); ?>">
@@ -24,12 +23,22 @@
               <?php the_content(); ?> <!-- Content of the page "Recipe" V -->
 
               <!-- ingredients -->
-              <!-- serve and preparation time --> 
+              <?php the_field('ingretients') ; ?>
+              <!-- serve and preparation time -->
+              <?php the_field('serve') ; ?> 
               <!-- intructions (steps) --> <!-- Aside social network -->
-              <!-- Latest blog -->
+              <?php the_field('preparation_time') ; ?>
+              <?php if(have_rows('instructions')) :
+                      while(have_rows('instructions')) : the_row(); 
+                      $sub_value = get_sub_field('steps');
+                      echo $sub_value;
 
+                      endwhile;
+                    endif;?>
+          
+              <!-- Latest blog -->
             
-              <!-- Content of the page "Recipe" -->
+              <!-- FIN Content of the page "Recipe" -->
             </div>
           </div>
         </article>
