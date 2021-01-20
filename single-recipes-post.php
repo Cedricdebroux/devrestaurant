@@ -1,10 +1,15 @@
 <?php get_header(); ?>
-
+<?php echo "COUCOUUUUUUU" ;?>
   <div id="primary" class="content-area extended">
+    <?php echo "cOUCOUUUUUUU 2 " ;?>
     <main id="main" class="site-main" role="main">
+    <?php echo "cOUCOUUUUUUU 3 " ;?>
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <?php echo "cOUCOUUUUUUU 4 " ;?>
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+        <?php echo "cOUCOUUUUUUU 5 " ;?>
           <header class="entry-header">
+          <?php echo "cOUCOUUUUUUU 6 " ;?>
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
               <a href="https://teamperfect.bout-de-creations.com/recipes-post/"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
               <?php get_the_date( 'j F, Y' ); ?>
@@ -14,7 +19,6 @@
             <?php the_title( '<h1>', '</h1>' ); ?>
             <!-- Description V-->
             <?php the_field('description', 'recipe') ; ?>
-
           </header>
           <?php echo "CONTENT" ; ?>
           <div class="entry-content">
