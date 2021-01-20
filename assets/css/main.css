@@ -292,7 +292,7 @@ article.post {
 .recipeSinglePageThumbnail  {
   width: 100%; /* width of container */
    /* height of container */
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .recipeSinglePageThumbnail img {
   width: 80%;
