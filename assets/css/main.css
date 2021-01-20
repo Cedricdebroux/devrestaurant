@@ -288,9 +288,14 @@ article.post {
   margin: auto;
 
 }
+
+.recipeSinglePageThumbnail  {
+  width: 100%; /* width of container */
+  height: 400px; /* height of container */
+  object-fit: cover;
+}
 .recipeSinglePageThumbnail img {
   width: 80%;
-  height: 300px;
   margin-bottom: -120px;
 }
 .recipeSinglePageContent {
