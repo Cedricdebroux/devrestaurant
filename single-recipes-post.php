@@ -32,9 +32,9 @@
               ?>
               </ul>
               <!-- serve and preparation time -->
-              <?php the_field('serve') ; ?> 
+              <p>For <?php the_field('serve') ; ?> people - Preparation <?php the_field('preparation_time') ; ?> min</p>
               <!-- intructions (steps) --> <!-- Aside social network -->
-              <?php the_field('preparation_time') ; ?>
+              
               <ol>
               <?php if(have_rows('instructions')) :
                       while(have_rows('instructions')) : the_row(); ?>
