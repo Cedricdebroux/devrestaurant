@@ -16,7 +16,7 @@
               <?php echo "cOUCOUUUUUUU 8 " ;?>
               <?php get_the_date( 'j F, Y' ); ?>
               <?php echo "cOUCOUUUUUUU 9 " ;?>
-              <?php the_category('type_of_recipe'); ?>
+              <!-- <?php the_category('type_of_recipe'); ?> -->
               <?php echo "cOUCOUUUUUUU 10 " ;?>
             </div>
             <?php echo "TITLE" ; ?>
