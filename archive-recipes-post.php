@@ -19,9 +19,7 @@
 
       <?php echo paginate_links(); ?>
 
-      <p>Template: archive-recipes-post.php</p>
-
-      </main>
+    </main>
 
 </div>
 
