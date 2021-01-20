@@ -291,6 +291,7 @@ article.post {
 
 .recipeSingleIngredients li {
   position: relative;
+  padding-left : 45px;
 }
 
 .recipeSingleIngredients li:before {
