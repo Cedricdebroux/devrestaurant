@@ -292,11 +292,11 @@ article.post {
 .recipeSinglePageThumbnail  {
   width: 100%; /* width of container */
    /* height of container */
-  /* object-fit: cover; */
+  /* object-fit: cover; déforme l image à vérifier  */
 }
 .recipeSinglePageThumbnail img {
   width: 80%;
-  height: 350px;
+  height: 400px;
   margin-bottom: -120px;
 }
 .recipeSinglePageContent {
