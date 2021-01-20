@@ -12,12 +12,12 @@
               <?php the_title( '<h1>', '</h1>' ); ?>
               <!-- Description V-->
               <?php the_field('description') ; ?>
+              <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
           </header>
           <div class="entry-content">
             <div class="recipeSinglePageContent">
-              <div class="recipeSinglePageThumbnail"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
               <?php the_content(); ?> <!-- Content of the page "Recipe" V -->
               <div class="recipeSingleIngredients">
                 <h2>Ingredients</h2>

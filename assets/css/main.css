@@ -283,6 +283,9 @@ article.post {
   color: white;
   width: 80%;
   margin: auto;
+  position: absolute;
+  top:0;
+  margin-top: -300px;
 }
 .recipeSinglePageContent {
   width: 80%;
