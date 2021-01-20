@@ -4,7 +4,9 @@
 <article id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
   <div class="entry-content container">
     <!-- NOTRE SUPER BOUCLE ICI -->
+    <?php echo $i . "coucou 1"; ?>
     <?php if ($i % 2 == 0) :?> 
+      <?php echo $i; ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
           <div class="col-md-7">
@@ -21,7 +23,7 @@
         </div>
       </div>
     <?php $i += 1; ?>
-    <echo $i; ?>
+    <?php echo $i . "coucou 2"; ?>
     <?php else : ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
@@ -38,8 +40,8 @@
           </div>
         </div>
       </div>
-      <echo $i; ?>
     <?php $i += 1;
+      echo $i . "coucou 3";
       endif; ?>
 
     <!-- FIN DE NOTRE SUPER BOUCLE ICI -->
