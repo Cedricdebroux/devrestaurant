@@ -15,7 +15,7 @@
 
               <!-- Description V-->
               <p class="mb-3"><?php the_field('description') ; ?></p>
-              <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'full' ); ?></div>  <!-- Image of the recipe V -->
+              <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'medium-large' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
           </header>
