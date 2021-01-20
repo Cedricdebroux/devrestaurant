@@ -1,9 +1,9 @@
 <div> <!-- Fin dans le footer -->
- 
+ <?php global $wp_query; ?>
   <article id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
-      <?php if ( $current_post %2==0 ){ ?> 
+      <?php if ( $wp_query->$current_post %2==0 ){ ?> 
         <div class="card mb-12 text-center">
           <div class="row no-gutters">
             <div class="col-md-7">
@@ -19,8 +19,8 @@
             </div>
           </div>
         </div>
-      <?php $current_post++; ?>
-      <?php echo $current_post . " INCREMENTATIOOOON" ;?>
+      <?php $wp_query->$current_post++; ?>
+      <?php echo $wp_query->$current_post . " INCREMENTATIOOOON" ;?>
 
       <?php } else { ?>
         <div class="card mb-12 text-center">
@@ -38,8 +38,8 @@
             </div>
           </div>
         </div>
-      <?php $current_post++;
-      echo $current_post . " INCREMENTATIOOOON" ;
+      <?php $wp_query->$current_post++;
+      echo $wp_query->$current_post . " INCREMENTATIOOOON" ;
       }/*FIN DE IF*/ ?>
 
       <!-- FIN DE NOTRE SUPER BOUCLE ICI -->
