@@ -309,7 +309,9 @@ article.post {
 }
 
 .recipeSinglePageHeaderList {
-  display: inline;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px auto auto;
 }
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
