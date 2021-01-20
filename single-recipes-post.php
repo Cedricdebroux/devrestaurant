@@ -21,7 +21,7 @@
 
               <!-- ingredients -->
               <?php the_field('ingretients') ; ?>
-              <ol>
+              <ul>
               <?php if(have_rows('ingredients')) :
                       while(have_rows('ingredients')) : the_row(); ?>
                         <li><?php the_sub_field('ingredient')?></li>
@@ -30,7 +30,7 @@
               <?php   endwhile;
                     endif;
               ?>
-              </ol>
+              </ul>
               <!-- serve and preparation time -->
               <?php the_field('serve') ; ?> 
               <!-- intructions (steps) --> <!-- Aside social network -->
