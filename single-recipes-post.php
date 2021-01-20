@@ -6,7 +6,7 @@
           <header class="entry-header">
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
               <a href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
-              <?php echo get_the_date( 'j F, Y' ); ?>
+              <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
               <?php the_category('type_of_recipe'); ?>
             </div>
             <?php the_title( '<h1>', '</h1>' ); ?>
