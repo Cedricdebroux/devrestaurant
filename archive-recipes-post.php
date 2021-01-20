@@ -6,8 +6,9 @@
 
     
 
-      <?php $i = 2;
+      <?php $i = 1;
       if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <?php $i++;?>
         <?php get_template_part( 'template-parts/content', 'recipes' ); ?>
         
 
