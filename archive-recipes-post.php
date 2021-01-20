@@ -9,7 +9,7 @@
       <?php $i = 2;
       if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <?php $i++ ; ?>
-        <?php echo "COUCOU JE SUIS UNE INCREMENTATIONNNNNN" ;?>
+        <?php echo "COUCOU JE SUIS UNE INCREMENTATIONNNNNN" . $i ;?>
         <?php get_template_part( 'template-parts/content', 'recipes' ); ?>
         
 
