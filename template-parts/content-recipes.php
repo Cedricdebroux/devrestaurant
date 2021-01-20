@@ -6,6 +6,7 @@
     <!-- NOTRE SUPER BOUCLE ICI -->
     <?php echo $i . "coucou 1"; ?>
     <?php if ($i % 2 == 0) :?> 
+      <?php $i++?>
       <?php echo $i . "COUCOU 1.2"; ?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
@@ -22,9 +23,10 @@
           </div>
         </div>
       </div>
-    <?php $i += 1; ?>
+    <?php $i++; ?>
     <?php echo $i . "coucou 2"; ?>
     <?php else : ?>
+      <?php $i++?>
       <div class="card mb-12 text-center">
         <div class="row no-gutters">
           <div class="col-md-5">
@@ -40,7 +42,7 @@
           </div>
         </div>
       </div>
-    <?php $i += 1;
+    <?php $i++;
       echo $i . "coucou 3";
       endif; ?>
 
