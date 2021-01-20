@@ -10,12 +10,13 @@
               <?php get_the_date( 'j F, Y' ); ?>
               <?php the_field('type_of_recipe'); ?>
             </div>
-
+            <?php echo "TITLE" ; ?>
             <?php the_title( '<h1>', '</h1>' ); ?>
             <!-- Description V-->
             <?php the_field('description', 'recipe') ; ?>
 
           </header>
+          <?php echo "CONTENT" ; ?>
           <div class="entry-content">
             <div class="recipeSinglePageContent">
               <a href="<?php the_permalink(); ?>">
@@ -31,6 +32,7 @@
 
             
               <!-- Content of the page "Recipe" -->
+              <?php echo "FIN CONTENT" ; ?>
             </div>
           </div>
         </article>
