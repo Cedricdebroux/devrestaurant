@@ -282,6 +282,7 @@ article.post {
 .recipeSinglePageBigHeader {
   width: 100%;
   position: relative;
+  background-color: #292929;
 }
 .recipeSinglePageHeader {
   background-color: #292929;
