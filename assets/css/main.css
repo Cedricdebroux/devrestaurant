@@ -377,12 +377,12 @@ header#masthead-recipe {
 }
 .recipeSingleInstructions li:before {
   content: counter(instructions); /* on affiche le compteur */
-	padding: 0 20px 6px;
+	padding: 10px;
 	margin-right: 8px;
 	vertical-align: top;
 	background: black;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
 	font-weight: bold;
 	font-size: 0.8em;
 	color: white;		

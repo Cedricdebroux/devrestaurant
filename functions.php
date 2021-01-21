@@ -161,4 +161,24 @@ function register_widget_areas() {
   // for post types
   add_filter('use_block_editor_for_post_type', '__return_false', 10);
 
+  add_action( 'init', 'cp_change_post_object' );
+// Change dashboard Posts to Restaurants
+function cp_change_post_object() {
+    $get_post_type = get_post_type_object('post');
+    $labels = $get_post_type->labels;
+        $labels->name = 'Restaurants';
+        $labels->singular_name = 'Restaurant';
+        $labels->add_new = 'Add Restaurant';
+        $labels->add_new_item = 'Add Restaurant';
+        $labels->edit_item = 'Edit Restaurant';
+        $labels->new_item = 'Restaurant';
+        $labels->view_item = 'View Restaurant';
+        $labels->search_items = 'Search Restaurant';
+        $labels->not_found = 'No Restaurant found';
+        $labels->not_found_in_trash = 'No Restaurant found in Trash';
+        $labels->all_items = 'All Restaurants';
+        $labels->menu_name = 'Restaurants';
+        $labels->name_admin_bar = 'Restaurants';
+}
+
 ?>
