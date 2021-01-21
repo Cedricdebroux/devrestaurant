@@ -147,14 +147,15 @@
 
       </div>
     </div>
-
+    <hr class="w-75" style="background-color:white; border-top:1px solid grey">
 
     <div class="d-flex justify-content-center">
       <div class="text-center p-3">
-        <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
+        <p class="text-muted">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>
         <a href="<?php echo esc_url( __( '#', 'TPrestaurant' ) ); ?>">
         <?php printf( esc_html__( 'Proudly powered by %s', 'TPrestaurant' ), 'Team Perfect' ); ?>
         </a>
+        </p>
       </div>
     </div>
         
