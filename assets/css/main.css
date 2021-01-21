@@ -301,6 +301,10 @@ header#masthead-recipe {
   width: 60%;
   margin: auto;
 }
+.recipeSinglePageHeader p {
+  margin: 0;
+  padding: 0;
+}
 
 .recipeSinglePageThumbnail {
   width: 100%; /* width of container */
