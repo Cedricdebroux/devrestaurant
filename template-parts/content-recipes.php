@@ -1,6 +1,6 @@
 <div> <!-- Fin dans le footer -->
  <?php global $wp_query; ?>
-  <article class="recipeContent" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
+  <article class="recipeContent mb-3" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
       <?php if ( $wp_query->$current_post %2==0 ){ ?> 
