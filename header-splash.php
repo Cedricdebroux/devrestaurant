@@ -25,22 +25,22 @@
               </a>
             </p>
             <nav class="navbar navbar-expand-md navbar-light" role="navigation">
-              <div class="container">
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="#header-menu" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                 </button>
-                 <?php
-                     wp_nav_menu(array(
-                         'theme_location'    => 'header_menu',
-                         'depth'             => 2,
-                         'container'         => 'div',
-                         'container_class'   => 'collapse navbar-collapse ml-4 recipeSingleMenu',
-                         'container_id'      => 'header-menu',
-                         'menu_class'        => 'mx-auto nav navbar-nav',
-                         'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                         'walker'            => new WP_Bootstrap_Navwalker(),
-                     ));
-                 ?>
+              <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="#header-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location'    => 'header_menu',
+                        'depth'             => 2,
+                        'container'         => 'div',
+                        'container_class'   => 'collapse navbar-collapse ml-4 recipeSingleMenu',
+                        'container_id'      => 'header-menu',
+                        'menu_class'        => 'mx-auto nav navbar-nav',
+                        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'            => new WP_Bootstrap_Navwalker(),
+                    ));
+                ?>
               </div>
             </nav>
           </div>
