@@ -282,7 +282,7 @@ article.post {
 }
 .recipeContent .btn:hover {
   background-color: black;
-  margin: -2px;
+  margin: -3px -3px -3px -3px;
   transition-duration: 1s;
 }
 /* ----------------------------------------------------------------------------------------------
