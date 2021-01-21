@@ -364,11 +364,11 @@ header#masthead-recipe {
   position: absolute;
   left: -15px;
 }
-.recipeSingleInstructions ol {
+.recipeSingleInstructions li {
   position: relative;
   padding-left: 45px;
 }
-.recipeSingleInstructions ol:before {
+.recipeSingleInstructions li:before {
   position: absolute;
   padding-left: -5px;
 }
