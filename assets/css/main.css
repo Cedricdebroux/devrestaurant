@@ -272,7 +272,7 @@ article.post {
   display: grid;
   grid-template-columns: 30% 70%;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 50px;
   background-color: #292929;
 }
 header#masthead-recipe {

@@ -18,7 +18,7 @@
       <header id="masthead-recipe" class="site-header" role="banner">
 
         <div class="site-branding">
-          <div id="recipeSinglePageBranding">
+          <div id="recipeSinglePageBranding" class="d-flex justify-content-around">
             <div>
               <p class="site-title">
                 <a href="<?php echo esc_url( home_url( '/' ) ) ;?>" rel="home">
