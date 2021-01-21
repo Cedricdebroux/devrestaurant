@@ -305,7 +305,10 @@ header#masthead-recipe {
   margin: 0;
   padding: 0;
 }
-
+#cutelry {
+  width: 15px;
+  height: 15px;
+}
 .recipeSinglePageThumbnail {
   width: 100%; /* width of container */
   /* height of container */
@@ -335,7 +338,7 @@ header#masthead-recipe {
 .recipeSinglePageHeaderList {
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 20% auto;
+  grid-template-columns: 20% 20% auto;
 }
 
 .singleRecipeA {
