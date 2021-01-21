@@ -298,7 +298,7 @@ header#masthead-recipe {
 .recipeSinglePageHeader {
   background-color: #292929;
   color: white;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -308,7 +308,6 @@ header#masthead-recipe {
   /* object-fit: cover; déforme l image à vérifier  */
 }
 .recipeSinglePageThumbnail img {
-  width: 80%;
   height: 400px;
   margin-bottom: -120px;
 }

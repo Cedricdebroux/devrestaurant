@@ -27,6 +27,7 @@
               </p>
             </div>
             <div>
+              <!-- Menu header -->
               <nav class="navbar navbar-expand-md navbar-light" role="navigation">
                 <div>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="#header-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,30 +49,6 @@
               </nav>
             </div>
           </div>
-        </div>
-
-       <!-- Menu header -->
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>       
       </header>
-
       <div>
