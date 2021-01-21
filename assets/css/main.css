@@ -273,6 +273,9 @@ header#masthead-recipe {
   background: #292929;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
 .recipeSinglePageHeaderArrow {
   width: 15px;
   height: 15px;
