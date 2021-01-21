@@ -1,6 +1,6 @@
 <div> <!-- Fin dans le footer -->
  <?php global $wp_query; ?>
-  <article class="recipeContent mb-3" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
+  <article class="recipeContent mb-3 mt-5" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
       <?php if ( $wp_query->$current_post %2==0 ){ ?> 
@@ -14,7 +14,7 @@
                 <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
                 <h5 class="card-title"> <?php the_title( '<h2><a class="text-dark" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
                 <p class="card-text"> <?php the_field('description');?></p>
-                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">Read more </a></button> 
+                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE</a></button> 
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
                 <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
                 <h5 class="card-title"> <?php the_title( '<h2><a class="text-dark" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
                 <p class="card-text"> <?php the_field('description');?></p>
-                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">Read more </a></button> 
+                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE </a></button> 
               </div>
             </div>
             <div class="col-md-7">

@@ -280,10 +280,14 @@ article.post {
 .recipeContent .btn {
   transition-duration: 1s;
 }
-.recipeContent .recipeButton :hover {
+.recipeContent .recipeButton:hover {
   background-color: black;
-  margin: -3px -3px -3px -3px;
   transition-duration: 1s;
+}
+
+.recipeThumbnailImg {
+  width: 300px;
+  height: 200px;
 }
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- SINGLE BLOG PAGE-------------------------------------------
