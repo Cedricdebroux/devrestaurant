@@ -271,10 +271,20 @@ article.post {
 .recipeContent a {
   color: black;
 }
-.recipeContent .btn {
+.recipeContent a:hover {
+  color:black;
+}
+.recipeContent .btn a {
   color: white;
 }
-
+.recipeContent .btn {
+  transition-duration: 1s;
+}
+.recipeContent .btn:hover {
+  background-color: black;
+  margin: -2px;
+  transition-duration: 1s;
+}
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- SINGLE BLOG PAGE-------------------------------------------
 -----------------------------------------------------------------------------------------------*/
