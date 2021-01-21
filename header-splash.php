@@ -48,9 +48,6 @@
               </nav>
             </div>
           </div>
-          <p class="site-description" >
-            <?php bloginfo( 'description' ); ?>
-          </p>
         </div>
 
        <!-- Menu header -->
