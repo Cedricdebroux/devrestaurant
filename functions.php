@@ -179,6 +179,8 @@ function cp_change_post_object() {
         $labels->all_items = 'All Restaurants';
         $labels->menu_name = 'Restaurants';
         $labels->name_admin_bar = 'Restaurants';
+        $get_post_type->menu_icon = 'dashicons-store';
+        
 }
 
 ?>
