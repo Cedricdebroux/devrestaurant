@@ -305,14 +305,12 @@ header#masthead-recipe {
   margin: 0;
   padding: 0;
 }
-#cutelry {
-  width: 15px;
-  height: 15px;
-}
 .termsRecipe a {
   display: flex;
 }
 .termsRecipe a::before {
+  margin-right: 10px;
+  margin-left: 10px;
   width: 15px;
   height: 15px;
   color: white;
