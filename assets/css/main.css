@@ -365,24 +365,24 @@ header#masthead-recipe {
   left: -15px;
 }
 .recipeSingleInstructions ol {
-  counter-reset: repas;
+  counter-reset: instructions;
 }
 .recipeSingleInstructions li {
   list-style-type: none;
-	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	counter-increment: instructions; /* on incrémente le compteur à chaque nouveau li */
 	margin-bottom: 10px;
   position: relative;
   right: 45px;
   padding-left: 5px;
 }
 .recipeSingleInstructions li:before {
-  content: counter(repas); /* on affiche le compteur */
+  content: counter(instructions); /* on affiche le compteur */
 	padding: 0 20px 6px;
 	margin-right: 8px;
 	vertical-align: top;
-	background: #678;
-	-moz-border-radius: 60px;
-	border-radius: 60px;
+	background: black;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 	font-weight: bold;
 	font-size: 0.8em;
 	color: white;		
