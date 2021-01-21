@@ -364,14 +364,16 @@ header#masthead-recipe {
   position: absolute;
   left: -15px;
 }
+.recipeSingleInstructions {
+  position: absolute;
+  right: 15px;
+}
 .recipeSingleInstructions li {
   position: relative;
   padding-left: 5px;
 }
-.recipeSingleInstructions li:before {
-  position: absolute;
-  padding-left: -15px;
-}
+/* .recipeSingleInstructions li:before { */
+/* } */
 
 .recipeSinglePageHeaderList {
   width: 100%;
