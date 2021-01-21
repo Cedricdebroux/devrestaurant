@@ -182,5 +182,5 @@ function cp_change_post_object() {
         $get_post_type->menu_icon = 'dashicons-store';
         
 }
-remove_submenu_page( 'edit.php', 'edit-tags.php?taxonomy=category' ); // Removes default category menu
+
 ?>
