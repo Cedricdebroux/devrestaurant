@@ -366,11 +366,11 @@ header#masthead-recipe {
 }
 .recipeSingleInstructions li {
   position: relative;
-  padding-left: 45px;
+  padding-left: 5px;
 }
 .recipeSingleInstructions li:before {
   position: absolute;
-  padding-left: -5px;
+  padding-left: -15px;
 }
 
 .recipeSinglePageHeaderList {
