@@ -11,7 +11,7 @@
                 <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
                       echo $term->name; ?>
                       <!-- test taxonomy -->
-                      <p> Taxonomy: <?php the_terms( $post->ID,'icon', 'recipe_types' ); ?> </p>           
+                      <p> Taxonomy: <?php the_terms( $post->ID, 'recipe_types' ); ?> </p>           
               </div>
               <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
