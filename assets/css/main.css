@@ -107,7 +107,7 @@ footer.site-footer {
 }
 /* #content img {
   height: auto;
-}*/ 
+}*/
 #primary {
   width: 70%;
   float: left;
@@ -269,6 +269,11 @@ article.post {
 ------------------------------------- SINGLE BLOG PAGE-------------------------------------------
 -----------------------------------------------------------------------------------------------*/
 
+#masthead-recipe {
+  width: 100vw;
+  background: #292929;
+}
+
 .recipeSinglePageHeaderArrow {
   width: 15px;
   height: 15px;
@@ -286,12 +291,11 @@ article.post {
   color: white;
   width: 80%;
   margin: auto;
-
 }
 
-.recipeSinglePageThumbnail  {
+.recipeSinglePageThumbnail {
   width: 100%; /* width of container */
-   /* height of container */
+  /* height of container */
   /* object-fit: cover; déforme l image à vérifier  */
 }
 .recipeSinglePageThumbnail img {
@@ -308,7 +312,7 @@ article.post {
 
 .recipeSingleIngredients li {
   position: relative;
-  padding-left : 45px;
+  padding-left: 45px;
 }
 
 .recipeSingleIngredients li:before {
