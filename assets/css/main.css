@@ -310,7 +310,7 @@ header#masthead-recipe {
   height: 15px;
 }
 .termsRecipe a {
-  display: inline;
+  display: flex;
 }
 .termsRecipe a::before {
   width: 15px;
