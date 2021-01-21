@@ -221,7 +221,7 @@ article.post {
 }
 .no-comments {
   border-top: 1px solid #d1d1d1;
-  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
   margin: 0;
   padding-top: 1.75em;
@@ -232,7 +232,7 @@ article.post {
 }
 .required {
   color: #007acc;
-  font-family: Merriweather, Georgia, serif;
+  font-family: Poppins, sans-serif;
 }
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -271,6 +271,10 @@ article.post {
 .recipeContent a {
   color: black;
 }
+.recipeContent .btn {
+  color: white;
+}
+
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- SINGLE BLOG PAGE-------------------------------------------
 -----------------------------------------------------------------------------------------------*/
