@@ -309,6 +309,9 @@ header#masthead-recipe {
   width: 15px;
   height: 15px;
 }
+.termsRecipe a::before {
+  content:url('https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/cutelry-1.svg');
+}
 .recipeSinglePageThumbnail {
   width: 100%; /* width of container */
   /* height of container */
