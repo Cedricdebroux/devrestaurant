@@ -5,12 +5,12 @@
   <div class="callToAction">
     <div class="shapeDivider mb-5"><?php dynamic_sidebar('footer-area-divider');?></div>
     <div class="row p-5">
-      <div class="col-md-6 p-5">
+      <div class="col-md-4 p-5">
         <h3 class="h1 p-2">Join Our Newsletter</h3>
       </div>
-      <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <div class="row ml-5">
-          <input type="text" placeholder="Your Email Adress" class="">
+      <div class="col-md-8 d-flex justify-content-center align-items-center">
+        <div class="row w-100 ml-5 justify-content-center">
+          <input class="w-50" type="text" placeholder="Your Email Adress" class="">
           <button type="button" class="btn btn-lg btn-1 p-2">SUBSCRIBE</button>
         </div>
       </div>
