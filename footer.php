@@ -126,7 +126,7 @@
               </div>
               <div class="contactUs">
                 <div><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/mail-2-1.svg" alt=""></div>
-                <div><p class="infoItem email"><a href="mailto:<?php the_field('email', 'options');?>"><?php the_field('email', 'options');?></a> </p></div>  
+                <div><p class="infoItem email"><a href="mailto:example@gmail.com"><?php the_field('email', 'options');?></a> </p></div>  
               </div>
             </div>
           </div>
