@@ -10,7 +10,7 @@
                 <p class="ml-4"><?php echo get_the_date( 'j F, Y' ); ?></p>
               
                       <!-- test taxonomy -->
-                      <p class="termsRecipe d-flex justify-content-end"><?php the_terms( $post->ID, 'recipe_types', ' '  ); ?> </p>           
+                      <p class="termsRecipe d-flex justify-content-end"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>           
               </div>
               <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
