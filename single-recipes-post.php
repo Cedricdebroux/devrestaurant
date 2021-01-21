@@ -8,10 +8,9 @@
               <div class="recipeSinglePageHeaderList pt-3">
                 <a class="singleRecipeA" href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
                 <p class="ml-4"><?php echo get_the_date( 'j F, Y' ); ?></p>
-                <?php $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
-                      echo $term->name; ?>
+              
                       <!-- test taxonomy -->
-                      <p> Taxonomy: <?php the_terms( $post->ID, 'recipe_types' ); ?> </p>           
+                      <p> Icons <?php the_terms( $post->ID, 'recipe_types' ); ?> </p>           
               </div>
               <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
