@@ -1,4 +1,4 @@
-<?php get_header( 'splash' ); ?>
+<?php get_header(); ?>
 
   <div id="primary" class="content-area extended">
 
@@ -18,7 +18,7 @@
 
       <?php echo paginate_links(); ?>
 
-      <p>Template: taxonomy-recipes-php.php</p>
+      <p>Template: taxonomy-recipes_types.php</p>
 
     </main>
 
