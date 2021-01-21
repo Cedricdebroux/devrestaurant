@@ -746,6 +746,10 @@ footer.site-footer {
   }
 }
 
+
+.hrFooter {
+  width: 80%;
+}
 /****************** CALL TO ACTION ********************************/
 
 .callToAction {

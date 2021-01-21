@@ -147,7 +147,7 @@
 
       </div>
     </div>
-    <hr class="w-75" style="background-color:white; border-top:1px solid grey">
+    <hr class="hrFooter" style="background-color:white; border-top:1px solid grey">
 
     <div class="d-flex justify-content-center">
       <div class="text-center p-3">
