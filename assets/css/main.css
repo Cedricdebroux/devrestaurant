@@ -377,7 +377,7 @@ header#masthead-recipe {
 }
 .recipeSingleInstructions li:before {
   content: counter(instructions); /* on affiche le compteur */
-	padding: 0 20px 6px;
+	padding: 10px;
 	margin-right: 8px;
 	vertical-align: top;
 	background: black;
