@@ -265,8 +265,6 @@ article.post {
   outline: 0;
 }
 
-
-
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT RECIPE --------------------------------------------
 -----------------------------------------------------------------------------------------------*/
@@ -356,6 +354,10 @@ header#masthead-recipe {
 .recipeSinglePageHeader p {
   margin: 0;
   padding: 0;
+}
+.recipeSingleDate {
+  position: relative;
+  right: 15px;
 }
 .termsRecipe a {
   display: flex;
@@ -458,9 +460,8 @@ header#masthead-recipe {
 .singleRecipeA {
   display: flex;
   border-right: 2px solid gray;
-  margin-right: 10px;
+  margin-right: 45px;
 }
-
 
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
@@ -579,8 +580,8 @@ header#masthead-recipe {
 }
 .reserveTable-button:hover {
   color: white;
-  padding: 20px;
-  transition-duration: 1s;
+  padding: 17px;
+  transition-duration: 2s;
 }
 
 /* ----------------------------------------------------------------------------------------------
@@ -861,29 +862,25 @@ footer.site-footer {
 
 /****************** END CALL TO ACTION ****************************/
 
-
-
-
-
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------PAGINATION LINKS -------------------------------------------
 -----------------------------------------------------------------------------------------------*/
 .paginateArchiveBlog {
-  display:grid;
+  display: grid;
   justify-content: center;
   color: black;
   width: 100vw;
 }
 .paginateArchiveBlog a {
-  color:black;
+  color: black;
 }
 .your-class {
   display: flex;
-  color:black;
+  color: black;
   font-size: 14px;
 }
 .your-class a {
-  color:black;
+  color: black;
 }
 
 .your-class li {
@@ -913,14 +910,12 @@ footer.site-footer {
   color:grey;
 }         
 .your-class a.active {
-  color:grey;
+  color: grey;
 } /* Liens actifs */
 
 .your-class .arrowPaginate {
   border: none;
 }
-
-
 
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------

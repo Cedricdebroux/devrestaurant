@@ -7,7 +7,7 @@
             <div class="recipeSinglePageHeader"> <!-- Back, date, taxonomy V -->
               <div class="recipeSinglePageHeaderList pt-3">
                 <a class="singleRecipeA" href="https://teamperfect.bout-de-creations.com/recipes-post/"><img class="recipeSinglePageHeaderArrow" src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/left-arrow.svg" alt=""> <p>Retour</p></a> 
-                <p class="ml-4"><?php echo get_the_date( 'j F, Y' ); ?></p>
+                <p class="recipeSingleDate"><?php echo get_the_date( 'j F, Y' ); ?></p>
               
                       <!--  taxonomy -->
                       <p class="termsRecipe d-flex justify-content-end"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>           
