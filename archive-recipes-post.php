@@ -20,7 +20,8 @@
       <div class="paginateArchiveBlog">
         <?php echo paginate_links(); ?>
       </div>
-      
+
+      coucou
       <?php
 
         $big = 999999999;
@@ -41,7 +42,7 @@
         }
 
       ?>
-
+      coucou
 
     </main>
 
