@@ -459,7 +459,7 @@ header#masthead-recipe {
 
 .singleRecipeA {
   display: flex;
-  border-right: 2px solid gray;
+  border-right: 2px solid #4A4B4B;
   margin-right: 45px;
 }
 
