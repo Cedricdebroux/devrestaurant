@@ -15,7 +15,7 @@
               <p class="recipeSinglePageTitleSpace"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
               <!-- Description V-->
-              <p class="recipeSinglePageSubtitleSpace"><?php the_field('description') ; ?></p>
+              <p class="recipeSinglePageSubTitleSpace"><?php the_field('description') ; ?></p>
               <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'medium-large' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
