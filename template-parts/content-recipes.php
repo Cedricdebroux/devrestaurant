@@ -26,13 +26,13 @@
       <?php } else { ?>
         <div class="card mb-12 text-center">
           <div class="row no-gutters">
-            <div class="col-md-5">
-              <div class="card-body">
-                <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
-                <p class="recipeTaxonomyArchive text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
-                <h5 class="card-title"> <?php the_title( '<h2><a class="text-dark" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
-                <p class="card-text"> <?php the_field('description');?></p>
-                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE </a></button> 
+          <div class="col-md-5">
+              <div class="card-body m-0">
+                <p class="card-text m-0"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
+                <p class="recipeTaxonomyArchive text-center text-black-50 m-0"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
+                <h5 class="card-title m-0"> <?php the_title( '<h2><a class="text-dark m-0" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
+                <p class="card-text m-0"> <?php the_field('description');?></p>
+                <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE</a></button> 
               </div>
             </div>
             <div class="col-md-7">
