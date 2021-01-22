@@ -900,17 +900,19 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
   color: black;
 }
-
+.your-class li {
+  list-style-type: none;
+}
 .your-class a:link {
   color: grey;
+  background-color: white;
+
 } /* Liens non visités */
-.your-class li > a:link {
-  background-color: white;
-}
-.your-class .visited {
-  color: grey;
-  background-color: white;
+
+.your-class a:visited {
+  color: black;
 } /* Liens visités */
+
 .your-class a:hover {
   color: black !important;
 } /* Liens survolés */
@@ -921,6 +923,8 @@ footer.site-footer {
 }
 .your-class a:active {
   color: grey;
+  font-weight: 700;
+  background-color: white;
 } /* Liens actifs */
 
 .your-class .arrowPaginate {
