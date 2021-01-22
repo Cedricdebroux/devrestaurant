@@ -17,6 +17,7 @@
               <!-- Description V-->
               <p class="recipeSinglePageSubTitleSpace"><?php the_field('description') ; ?></p>
               <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'medium-large' ); ?></div>  <!-- Image of the recipe V -->
+              <div class="recipeSinglePAgeHeaderCut"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/hachures-blanches.png" alt=""></div>
             </div>
             
           </header>
