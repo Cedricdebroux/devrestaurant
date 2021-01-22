@@ -906,11 +906,13 @@ footer.site-footer {
   color: black !important; 
 }  /* Liens survolés */
 .your-class .active { 
-  color: grey;
+
   font-weight: 700;
   background-color: white;  
 }         /* Liens actifs */
-
+.your-class a.active {
+  color:grey;
+}
 .your-class .arrowPaginate {
   border: none;
 }
