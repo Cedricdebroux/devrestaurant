@@ -1,6 +1,6 @@
 <div> <!-- Fin dans le footer -->
  <?php global $wp_query; ?>
- <p class="recipeTaxonomyArchive text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
+
   <article class="recipeContent mb-3 mt-5" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
@@ -13,6 +13,7 @@
             <div class="col-md-5">
               <div class="card-body">
                 <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
+                <p class="recipeTaxonomyArchive text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
                 <h5 class="card-title"> <?php the_title( '<h2><a class="text-dark" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
                 <p class="card-text"> <?php the_field('description');?></p>
                 <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE</a></button> 
@@ -28,6 +29,7 @@
             <div class="col-md-5">
               <div class="card-body">
                 <p class="card-text"><small class="text-muted"><?php echo get_the_date( 'j F, Y' ); ?></small></p>
+                <p class="recipeTaxonomyArchive text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
                 <h5 class="card-title"> <?php the_title( '<h2><a class="text-dark" href="' . get_the_permalink() .'">', '</a></h2>' ); ?></h5>
                 <p class="card-text"> <?php the_field('description');?></p>
                 <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE </a></button> 
