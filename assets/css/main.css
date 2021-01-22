@@ -357,6 +357,10 @@ header#masthead-recipe {
   margin: 0;
   padding: 0;
 }
+.recipeSingleDate {
+  position: relative;
+  right: 15px;
+}
 .termsRecipe a {
   display: flex;
 }
@@ -458,7 +462,7 @@ header#masthead-recipe {
 .singleRecipeA {
   display: flex;
   border-right: 2px solid gray;
-  margin-right: 10px;
+  margin-right: 45px;
 }
 
 
