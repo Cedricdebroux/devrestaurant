@@ -459,51 +459,7 @@ header#masthead-recipe {
   margin-right: 10px;
 }
 
-.paginateArchiveBlog {
-  display:grid;
-  justify-content: center;
-  color: black;
-  width: 100vw;
-}
-.paginateArchiveBlog a {
-  color:black;
-}
-.your-class {
-  display: flex;
-  color:black;
-  font-size: 14px;
-}
-.your-class a {
-  color:black;
-}
 
-.your-class li {
-  margin: 5px;
-  width: 30px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  display: grid;
-  justify-content: center;
-  padding: 5px 10px 5px 10px;
-}
-
-.your-class a:link { 
-  color: black; 
-}          /* Liens non visités */
-.your-class a:visited { 
-  color: grey; 
-}     /* Liens visités */
-.your-class a:hover { 
-  color: black; 
-}  /* Liens survolés */
-.your-class a:active { 
-  color: grey;
-  font-weight: 700; 
-}         /* Liens actifs */
-
-.your-class .arrowPaginate {
-  border: none;
-}
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
@@ -902,6 +858,62 @@ footer.site-footer {
 }
 
 /****************** END CALL TO ACTION ****************************/
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------
+-------------------------------------PAGINATION LINKS -------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+.paginateArchiveBlog {
+  display:grid;
+  justify-content: center;
+  color: black;
+  width: 100vw;
+}
+.paginateArchiveBlog a {
+  color:black;
+}
+.your-class {
+  display: flex;
+  color:black;
+  font-size: 14px;
+}
+.your-class a {
+  color:black;
+}
+
+.your-class li {
+  margin: 5px;
+  width: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.your-class a:link { 
+  color: black; 
+}          /* Liens non visités */
+.your-class a:visited { 
+  color: grey; 
+}     /* Liens visités */
+.your-class a:hover { 
+  color: black; 
+}  /* Liens survolés */
+.your-class a:active { 
+  color: grey;
+  font-weight: 700; 
+}         /* Liens actifs */
+
+.your-class .arrowPaginate {
+  border: none;
+}
+
+
+
 
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------
