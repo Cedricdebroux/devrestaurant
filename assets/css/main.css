@@ -915,6 +915,9 @@ footer.site-footer {
   border: none;
 }
 
+.your-class li > a:active {
+  background-color: red;
+}
 
 
 
