@@ -344,6 +344,7 @@ header#masthead-recipe {
   width: 100%;
   position: relative;
   background-color: #292929;
+  padding-top: 110px;
 }
 .recipeSinglePageHeader {
   background-color: #292929;
@@ -354,6 +355,13 @@ header#masthead-recipe {
 .recipeSinglePageHeader p {
   margin: 0;
   padding: 0;
+}
+p.recipeSinglePageTitleSpace {
+  margin-top: 70px;
+}
+p.recipeSinglePageSubTitleSpace {
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 .recipeSingleDate {
   position: relative;

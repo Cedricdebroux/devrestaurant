@@ -12,10 +12,10 @@
                       <!--  taxonomy -->
                       <p class="termsRecipe d-flex justify-content-end"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>           
               </div>
-              <p class="mb-5"><?php the_title( '<h1>', '</h1>' ); ?></p>
+              <p class="recipeSinglePageTitleSpace"><?php the_title( '<h1>', '</h1>' ); ?></p>
 
               <!-- Description V-->
-              <p class="mb-3"><?php the_field('description') ; ?></p>
+              <p class="recipeSinglePageSubTitleSpace"><?php the_field('description') ; ?></p>
               <div class="recipeSinglePageThumbnail d-flex justify-content-center"><?php the_post_thumbnail( 'medium-large' ); ?></div>  <!-- Image of the recipe V -->
             </div>
             
