@@ -429,6 +429,8 @@ header#masthead-recipe {
   margin: 1rem 0.25rem;
   line-height: 40px;
   list-style: none; /* Remove default numbering */
+  position: relative;
+  right: 25px;
 }
 
 .recipeSingleInstructions li::before {
