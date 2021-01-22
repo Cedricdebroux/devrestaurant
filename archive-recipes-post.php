@@ -21,9 +21,11 @@
         <?php echo paginate_links(); ?>
       </div>
 
-      coucou
-      <?php echo yourtheme_paging_nav() ?>
-      coucou
+      <div class="paginateArchiveBlog">
+        <?php echo yourtheme_paging_nav() ?>
+      </div>
+      
+      
 
     </main>
 
