@@ -265,8 +265,6 @@ article.post {
   outline: 0;
 }
 
-
-
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT RECIPE --------------------------------------------
 -----------------------------------------------------------------------------------------------*/
@@ -369,7 +367,7 @@ header#masthead-recipe {
   margin-left: 10px;
   width: 11px;
   height: 11px;
-  content: url("https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/cutelry-1.svg");
+  content: url("https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/cutelry-2.svg");
 }
 .recipeSinglePageThumbnail {
   width: 100%; /* width of container */
@@ -464,7 +462,6 @@ header#masthead-recipe {
   border-right: 2px solid gray;
   margin-right: 45px;
 }
-
 
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
@@ -583,8 +580,8 @@ header#masthead-recipe {
 }
 .reserveTable-button:hover {
   color: white;
-  padding: 20px;
-  transition-duration: 1s;
+  padding: 17px;
+  transition-duration: 2s;
 }
 
 /* ----------------------------------------------------------------------------------------------
@@ -865,29 +862,25 @@ footer.site-footer {
 
 /****************** END CALL TO ACTION ****************************/
 
-
-
-
-
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------PAGINATION LINKS -------------------------------------------
 -----------------------------------------------------------------------------------------------*/
 .paginateArchiveBlog {
-  display:grid;
+  display: grid;
   justify-content: center;
   color: black;
   width: 100vw;
 }
 .paginateArchiveBlog a {
-  color:black;
+  color: black;
 }
 .your-class {
   display: flex;
-  color:black;
+  color: black;
   font-size: 14px;
 }
 .your-class a {
-  color:black;
+  color: black;
 }
 
 .your-class li {
@@ -900,30 +893,27 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
 }
 
-.your-class .link { 
+.your-class .link {
   color: black;
-
-}          /* Liens non visités */
-.your-class .visited { 
-  color: grey; 
-  background-color: white; 
-}     /* Liens visités */
-.your-class a:hover { 
-  color: black !important; 
-}  /* Liens survolés */
-.your-class .active { 
-
+} /* Liens non visités */
+.your-class .visited {
+  color: grey;
+  background-color: white;
+} /* Liens visités */
+.your-class a:hover {
+  color: black !important;
+} /* Liens survolés */
+.your-class .active {
   font-weight: 700;
-  background-color: white;  
-}         /* Liens actifs */
-.your-class a.active {
-  color:grey;
+  background-color: white;
 }
+.your-class a.active {
+  color: grey;
+} /* Liens actifs */
+
 .your-class .arrowPaginate {
   border: none;
 }
-
-
 
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------
