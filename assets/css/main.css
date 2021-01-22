@@ -911,7 +911,7 @@ footer.site-footer {
 
 .your-class a:visited {
   color: black;
-  background-color: none;
+  background-color: none !important;
 } /* Liens visités */
 
 .your-class a:hover {
