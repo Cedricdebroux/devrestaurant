@@ -471,6 +471,7 @@ header#masthead-recipe {
 .your-class {
   display: flex;
   color:black;
+  font-size: 14px;
 }
 .your-class a {
   color:black;
@@ -478,12 +479,12 @@ header#masthead-recipe {
 
 .your-class li {
   margin: 5px;
-  padding: 10px;
-  width: 45px;
+  width: 30px;
   border: 1px solid gray;
   border-radius: 5px;
   display: grid;
   justify-content: center;
+  padding: 5px 10px 5px 10px;
 }
 
 .your-class a:link { 
