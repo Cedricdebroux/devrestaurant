@@ -356,10 +356,10 @@ header#masthead-recipe {
   margin: 0;
   padding: 0;
 }
-.recipeSinglePageTitleSpace {
+.recipeSinglePageTitleSpace p {
   margin-top: 70px;
 }
-.recipeSinglePageSubTitleSpace {
+.recipeSinglePageSubTitleSpace p {
   margin-top: 80px;
   margin-bottom: 50px;
 }
