@@ -1,6 +1,6 @@
 <div> <!-- Fin dans le footer -->
  <?php global $wp_query; ?>
- <p class="text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
+ <p class="recipeTaxonomyArchive text-center text-black-50"><?php the_terms( $post->ID, 'recipe_types', ' ' , ' ' ); ?> </p>
   <article class="recipeContent mb-3 mt-5" id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
     <div class="entry-content container">
       <!-- NOTRE SUPER BOUCLE ICI -->
