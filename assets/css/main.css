@@ -475,6 +475,22 @@ header#masthead-recipe {
 .your-class a {
   color:black;
 }
+
+.your-class li {
+  margin: 5px;
+  padding: 10px;
+  background: gray;
+  width: 45px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+}
+
+.your-class a:active {
+  color: grey;
+  font-weight: 600;
+}
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/

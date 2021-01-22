@@ -18,10 +18,6 @@
       <?php endif; ?>
 
       <div class="paginateArchiveBlog">
-        <?php echo paginate_links(); ?>
-      </div>
-
-      <div class="paginateArchiveBlog">
         <?php echo yourtheme_paging_nav() ?>
       </div>
       
