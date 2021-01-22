@@ -897,6 +897,9 @@ footer.site-footer {
 .your-class a:link {
   color: grey;
 } /* Liens non visités */
+.your-class .link {
+  background-color: white;
+}
 .your-class .visited {
   color: grey;
   background-color: white;
