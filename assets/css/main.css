@@ -894,18 +894,18 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
 }
 
-.your-class a:link { 
+.your-class .link { 
   color: black;
 
 }          /* Liens non visités */
-.your-class a:visited { 
+.your-class .visited { 
   color: grey; 
   background-color: white; 
 }     /* Liens visités */
 .your-class a:hover { 
   color: black !important; 
 }  /* Liens survolés */
-.your-class a:active { 
+.your-class .active { 
   color: grey;
   font-weight: 700;
   background-color: white;  
@@ -913,10 +913,6 @@ footer.site-footer {
 
 .your-class .arrowPaginate {
   border: none;
-}
-
-.your-class li > .your-class a:active {
-  background-color: red;
 }
 
 
