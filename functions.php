@@ -218,7 +218,7 @@ function yourtheme_paging_nav() {
   
   /** Previous Post Link */
   if ( get_previous_posts_link() )
-      printf( '<a href="%s"><li class="arrowPaginate" ><span class="dashicons dashicons-arrow-left-alt"></span></li></a>' . "\n", get_previous_posts_page_link() );
+      printf( '<li class="arrowPaginate" ><a class="arrowPaginate href="%s"><span class="dashicons dashicons-arrow-left-alt"></span></a></li>' . "\n", get_previous_posts_page_link() );
   
   /** Link to first page, plus ellipses if necessary */
   if ( ! in_array( 1, $links ) ) {
@@ -248,7 +248,7 @@ function yourtheme_paging_nav() {
   
   /** Next Post Link */
   if ( get_next_posts_link() )
-      printf( '<a href="%s"><li class="arrowPaginate"><span class="dashicons dashicons-arrow-right-alt"></span></li></a>' . "\n", get_next_posts_page_link() );
+      printf( '<li class="arrowPaginate"><a class="arrowPaginate href="%s"><span class="dashicons dashicons-arrow-right-alt"></span></a></li>' . "\n", get_next_posts_page_link() );
   
   echo '</ul></div>' . "\n";
   }
