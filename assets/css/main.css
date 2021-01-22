@@ -264,6 +264,16 @@ article.post {
 #content[tabindex="-1"]:focus {
   outline: 0;
 }
+
+.recipeTaxonomyArchive a::before {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 11px;
+  height: 11px;
+  content: url("https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/cutelry-1.svg");
+}
+
+
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT RECIPE --------------------------------------------
 -----------------------------------------------------------------------------------------------*/
