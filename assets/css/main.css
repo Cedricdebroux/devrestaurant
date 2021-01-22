@@ -400,7 +400,6 @@ header#masthead-recipe {
   counter-increment: counter-instruction;
   margin: 1rem 0.25rem;
   line-height: 40px;
-  padding-left: 3rem;
   list-style: none; /* Remove default numbering */
 }
 
