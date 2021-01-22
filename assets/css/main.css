@@ -888,11 +888,9 @@ footer.site-footer {
   color: black;
   font-size: 14px;
 }
-.your-class a {
-  color: black;
-}
 
-.your-class li {
+
+.your-class a {
   margin: 5px;
   width: 30px;
   border: 1px solid gray;
@@ -900,12 +898,13 @@ footer.site-footer {
   display: grid;
   justify-content: center;
   padding: 5px 10px 5px 10px;
+  color: black;
 }
 
 .your-class a:link {
   color: grey;
 } /* Liens non visités */
-.your-class .link {
+.your-class li > a:link {
   background-color: white;
 }
 .your-class .visited {
