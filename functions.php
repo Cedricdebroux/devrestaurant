@@ -224,7 +224,7 @@ function yourtheme_paging_nav() {
   if ( ! in_array( 1, $links ) ) {
       $class = 1 == $paged ? ' class="active"' : '';
   
-      printf( '<a href="%s"><li>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
   
       if ( ! in_array( 2, $links ) )
           echo '<li>…</li>';
@@ -234,7 +234,7 @@ function yourtheme_paging_nav() {
   sort( $links );
   foreach ( (array) $links as $link ) {
       $class = $paged == $link ? ' class="active"' : '';
-      printf( '<a href="%s"><li>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $link ) ), $link );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $link ) ), $link );
   }
   
   /** Link to last page, plus ellipses if necessary */
@@ -243,7 +243,7 @@ function yourtheme_paging_nav() {
           echo '<li>…</li>' . "\n";
   
       $class = $paged == $max ? ' class="active"' : '';
-      printf( '<a href="%s"><li>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
   }
   
   /** Next Post Link */
