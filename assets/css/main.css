@@ -385,6 +385,10 @@ p.recipeSinglePageSubTitleSpace {
 .recipeSinglePageThumbnail img {
   height: 400px;
   margin-bottom: -120px;
+  z-index: 2;
+}
+.recipeSinglePAgeHeaderCut {
+  z-index: 1;
 }
 .recipeSinglePageContent {
   width: 60%;
