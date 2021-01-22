@@ -575,12 +575,13 @@ header#masthead-recipe {
   padding: 15px;
   color: white;
   border-radius: 0;
-  transition-duration: 1s;
+  transition-duration: 2s;
   font-weight: 900;
 }
 .reserveTable-button:hover {
   color: white;
-  padding: 17px;
+  padding: 16px;
+  background-color: #050505;
   transition-duration: 2s;
 }
 
@@ -893,22 +894,21 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
 }
 
-.your-class a:link { 
+.your-class a:link {
   color: grey;
-
-}          /* Liens non visités */
-.your-class .visited { 
-  color: grey; 
-  background-color: white; 
-}     /* Liens visités */
-.your-class a:hover { 
-  color: black !important; 
-}  /* Liens survolés */
-.your-class .active { 
+} /* Liens non visités */
+.your-class .visited {
+  color: grey;
+  background-color: white;
+} /* Liens visités */
+.your-class a:hover {
+  color: black !important;
+} /* Liens survolés */
+.your-class .active {
   font-weight: 700;
-  background-color: white;  
-  color:grey;
-}         
+  background-color: white;
+  color: grey;
+}
 .your-class a:active {
   color: grey;
 } /* Liens actifs */
