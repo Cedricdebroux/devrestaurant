@@ -896,8 +896,8 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
 }
 
-.your-class .link { 
-  color: black;
+.your-class a:link { 
+  color: grey;
 
 }          /* Liens non visités */
 .your-class .visited { 
@@ -910,6 +910,7 @@ footer.site-footer {
 .your-class .active { 
   font-weight: 700;
   background-color: white;  
+  color:grey;
 }         
 .your-class a.active {
   color:grey;
