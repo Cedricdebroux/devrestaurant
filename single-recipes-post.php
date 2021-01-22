@@ -52,7 +52,7 @@
                 </ol>
               </div>
 
-          
+              <?php echo do_shortcode("[hfe_template id='1557']"); ?>
               <!-- Latest blog -->
             
               <!-- FIN Content of the page "Recipe" -->
