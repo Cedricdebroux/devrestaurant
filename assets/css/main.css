@@ -469,7 +469,7 @@ header#masthead-recipe {
   color:black;
 }
 .your-class {
-  display: inline;
+  display: flex;
   color:black;
 }
 .your-class a {
@@ -479,7 +479,6 @@ header#masthead-recipe {
 .your-class li {
   margin: 5px;
   padding: 10px;
-  background: gray;
   width: 45px;
   border: 1px solid gray;
   border-radius: 5px;
@@ -487,10 +486,19 @@ header#masthead-recipe {
   justify-content: center;
 }
 
-.your-class a:active {
+.your-class a:link { 
+  color: black; 
+}          /* Liens non visités */
+.your-class a:visited { 
+  color: grey; 
+}     /* Liens visités */
+.your-class a:hover { 
+  background: black; 
+}  /* Liens survolés */
+.your-class a:active { 
   color: grey;
-  font-weight: 600;
-}
+  font-weight: 700; 
+}         /* Liens actifs */
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
