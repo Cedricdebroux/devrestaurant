@@ -493,12 +493,16 @@ header#masthead-recipe {
   color: grey; 
 }     /* Liens visités */
 .your-class a:hover { 
-  background: black; 
+  color: black; 
 }  /* Liens survolés */
 .your-class a:active { 
   color: grey;
   font-weight: 700; 
 }         /* Liens actifs */
+
+.your-class .arrowPaginate {
+  border: none;
+}
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
