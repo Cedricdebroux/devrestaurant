@@ -355,6 +355,10 @@ header#masthead-recipe {
   margin: 0;
   padding: 0;
 }
+.recipeSingleDate {
+  position: relative;
+  right: 15px;
+}
 .termsRecipe a {
   display: flex;
 }
@@ -456,7 +460,7 @@ header#masthead-recipe {
 .singleRecipeA {
   display: flex;
   border-right: 2px solid gray;
-  margin-right: 10px;
+  margin-right: 45px;
 }
 
 /* ----------------------------------------------------------------------------------------------
@@ -889,21 +893,23 @@ footer.site-footer {
   padding: 5px 10px 5px 10px;
 }
 
-.your-class .link {
-  color: black;
-} /* Liens non visités */
-.your-class .visited {
+.your-class a:link { 
   color: grey;
-  background-color: white;
-} /* Liens visités */
-.your-class a:hover {
-  color: black !important;
-} /* Liens survolés */
-.your-class .active {
+
+}          /* Liens non visités */
+.your-class .visited { 
+  color: grey; 
+  background-color: white; 
+}     /* Liens visités */
+.your-class a:hover { 
+  color: black !important; 
+}  /* Liens survolés */
+.your-class .active { 
   font-weight: 700;
-  background-color: white;
-}
-.your-class a.active {
+  background-color: white;  
+  color:grey;
+}         
+.your-class a:active {
   color: grey;
 } /* Liens actifs */
 
