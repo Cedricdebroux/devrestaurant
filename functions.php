@@ -218,13 +218,13 @@ function yourtheme_paging_nav() {
   
   /** Previous Post Link */
   if ( get_previous_posts_link() )
-      printf( '<li class="arrowPaginate" ><a href="%s"><span class="dashicons dashicons-arrow-left-alt"></span></a></li>' . "\n", get_previous_posts_page_link() );
+      printf( '<a href="%s"><li class="arrowPaginate" ><span class="dashicons dashicons-arrow-left-alt"></span></li></a>' . "\n", get_previous_posts_page_link() );
   
   /** Link to first page, plus ellipses if necessary */
   if ( ! in_array( 1, $links ) ) {
       $class = 1 == $paged ? ' class="active"' : '';
   
-      printf( '<li%s><a href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
   
       if ( ! in_array( 2, $links ) )
           echo '<li>…</li>';
@@ -234,7 +234,7 @@ function yourtheme_paging_nav() {
   sort( $links );
   foreach ( (array) $links as $link ) {
       $class = $paged == $link ? ' class="active"' : '';
-      printf( '<li%s><a href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( $link ) ), $link );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $link ) ), $link );
   }
   
   /** Link to last page, plus ellipses if necessary */
@@ -243,12 +243,12 @@ function yourtheme_paging_nav() {
           echo '<li>…</li>' . "\n";
   
       $class = $paged == $max ? ' class="active"' : '';
-      printf( '<li%s><a href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
+      printf( '<a href="%s"><li%s>%s</li></a>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
   }
   
   /** Next Post Link */
   if ( get_next_posts_link() )
-      printf( '<li class="arrowPaginate"><a href="%s"><span class="dashicons dashicons-arrow-right-alt"></span></a></li>' . "\n", get_next_posts_page_link() );
+      printf( '<a href="%s"><li class="arrowPaginate"><span class="dashicons dashicons-arrow-right-alt"></span></li></a>' . "\n", get_next_posts_page_link() );
   
   echo '</ul></div>' . "\n";
   }
