@@ -909,7 +909,7 @@ footer.site-footer {
   background-color: white;  
   color:grey;
 }         
-.your-class a.active {
+.your-class a:active {
   color: grey;
 } /* Liens actifs */
 
