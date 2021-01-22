@@ -900,8 +900,8 @@ footer.site-footer {
 .your-class a:visited { 
   color: grey; 
 }     /* Liens visités */
-.your-class li:hover { 
-  color: black; 
+.your-class a:hover { 
+  color: black !important; 
 }  /* Liens survolés */
 .your-class a:active { 
   color: grey;
