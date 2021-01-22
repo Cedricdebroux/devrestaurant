@@ -389,7 +389,7 @@ header#masthead-recipe {
 /* }
 */
 
-/* test incrementation li*/
+/* test incrementation li Rachida */
 .recipeSingleIngredients {
   list-style: none;
   padding: 0;
@@ -401,6 +401,7 @@ header#masthead-recipe {
   margin: 1rem 0.25rem;
   line-height: 40px;
   padding-left: 3rem;
+  list-style: none; /* Remove default numbering */
 }
 
 .recipeSingleIngredients li::before {
