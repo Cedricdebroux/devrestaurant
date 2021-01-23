@@ -950,10 +950,10 @@ footer.site-footer {
   text-overflow: ellipsis;
 }
 .eael-entry-media {
-  height: 115px;
+  height: 145px;
 }
 .eael-entry-thumbnail > img {
-  min-height: 115px;
+  min-height: 145px;
 }
 .eael-grid-post-excerpt > p {
   visibility: visible;
