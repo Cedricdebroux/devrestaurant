@@ -438,7 +438,7 @@ p.recipeSinglePageSubTitleSpace {
   border-right: 2px solid #4a4b4b;
   margin-right: 45px;
 }
-.recipeSingleLatestPostFooterCut {
+.recipeSingleLatestPostCut {
   position: relative;
   top: 15px;
 }
