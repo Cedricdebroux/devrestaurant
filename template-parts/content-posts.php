@@ -13,8 +13,6 @@
                   <button type="button" class="recipeButton btn btn-dark text-white"> <a href="<?php the_permalink(); ?>">READ MORE</a></button> 
                 </div>
             </div>
-
-          </div>
-       </div>
-    </div>
+     </div>
+  </div>
 </article>
