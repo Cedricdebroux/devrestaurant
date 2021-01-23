@@ -2,7 +2,7 @@
 
   <div>
 
-    <main id="main" class="site-main contentRecipeMain" role="main">
+    <main id="main" class="site-main" role="main">
 
       
 
@@ -26,6 +26,6 @@
 
 
 
-<div class="recipeSingleLatestPostFooterBg"></div>
+
 
 <?php get_footer(); ?>
