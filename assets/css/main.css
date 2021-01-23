@@ -379,8 +379,6 @@ p.recipeSinglePageSubTitleSpace {
 }
 .recipeSinglePageThumbnail {
   width: 100%; /* width of container */
-  /* height of container */
-  /* object-fit: cover; déforme l image à vérifier  */
 }
 .recipeSinglePageThumbnail img {
   height: 400px;
@@ -440,7 +438,11 @@ p.recipeSinglePageSubTitleSpace {
   border-right: 2px solid #4a4b4b;
   margin-right: 45px;
 }
-.recipeSingleLatestPost {
+.recipeSingleLatestPostfooterCut {
+  position: relative;
+  top: 15px;
+}
+.recipeSingleLatestPostfooterBg {
   background-color: #f5f5f5;
   padding-bottom: 80px;
 }

@@ -61,7 +61,7 @@
       <?php endwhile; endif; ?>
     </main>
   </div>
-  <div class="recipeSingleLatestPostcut"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/hachures-blanches-1.png" alt=""></div>
+  <div class="recipeSingleLatestPostCut"><img src="https://teamperfect.bout-de-creations.com/wp-content/uploads/2021/01/hachures-blanches-1.png" alt=""></div>
   <div class="recipeSingleLatestPost"><?php echo do_shortcode("[hfe_template id='1557']"); ?></div>
 <div class="recipeSingleLatestPostfooterBg"></div>
   <?php get_footer(); ?>
