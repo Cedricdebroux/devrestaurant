@@ -477,9 +477,10 @@ p.recipeSinglePageSubTitleSpace {
 .recipeSingleLatestPost {
   background-color: #f5f5f5;
 }
-/*.recipeSingleLatestPostcut {
-
-}*/
+.recipeSingleLatestPostcut {
+  position: relative;
+  top: 15px;
+}
 
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------
