@@ -2,7 +2,6 @@
  <article id="post-<?php the_ID(); ?>"  <?php post_class(); ?>>
   <div class="card mb-12 text-center">
     <div class="row no-gutters">
-        
             <div class="col-md-12">
                <div class="card-body m-0">
                   <span class="dashicons dashicons-format-<?php echo get_post_format( $post->ID ); ?>"></span>
