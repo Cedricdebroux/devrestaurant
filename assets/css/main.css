@@ -474,6 +474,9 @@ p.recipeSinglePageSubTitleSpace {
   border-right: 2px solid #4a4b4b;
   margin-right: 45px;
 }
+.recipeSingleLatestPost {
+  background-color: #f5f5f5;
+}
 
 /* ----------------------------------------------------------------------------------------------
 ------------------------------------- CONTENT PAGE ----------------------------------------------

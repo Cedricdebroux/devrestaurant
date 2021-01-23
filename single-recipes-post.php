@@ -61,5 +61,5 @@
       <?php endwhile; endif; ?>
     </main>
   </div>
-  <div><?php echo do_shortcode("[hfe_template id='1557']"); ?></div>
+  <div class"recipeSingleLatestPost"><?php echo do_shortcode("[hfe_template id='1557']"); ?></div>
 <?php get_footer(); ?>
