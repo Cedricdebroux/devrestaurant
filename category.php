@@ -26,6 +26,6 @@
 
 
 
-
+<div class="recipeSingleLatestPostFooterBg"></div>
 
 <?php get_footer(); ?>
