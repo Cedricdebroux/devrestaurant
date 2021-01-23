@@ -471,7 +471,7 @@ p.recipeSinglePageSubTitleSpace {
 
 .singleRecipeA {
   display: flex;
-  border-right: 2px solid #4A4B4B;
+  border-right: 2px solid #4a4b4b;
   margin-right: 45px;
 }
 
@@ -893,7 +893,6 @@ footer.site-footer {
   font-size: 14px;
 }
 
-
 .your-class a {
   margin: 5px;
   width: 30px;
@@ -910,7 +909,6 @@ footer.site-footer {
 .your-class a:link {
   color: grey;
   background-color: white;
-
 } /* Liens non visités */
 
 .your-class a:visited {
@@ -935,10 +933,17 @@ footer.site-footer {
 .your-class .arrowPaginate {
   border: none;
   background-color: none;
-  color:black;
-
+  color: black;
 }
 
+/* Bloc last post */
+
+a.eael-grid-post-link:hover {
+  color: #000 !important;
+}
+a.eael-post-elements-readmore-btn:hover {
+  color: #000 !important;
+}
 /* ----------------------------------------------------------------------------------------------
 -------------------------------------Media Queries ----------------------------------------------
 -----------------------------------------------------------------------------------------------*/
