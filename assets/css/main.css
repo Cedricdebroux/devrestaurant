@@ -535,7 +535,7 @@ p.recipeSinglePageSubTitleSpace {
     margin-left: 0px;
     width: 100vw;
     position: relative;
-    right: 150px;
+    right: 153px;
   }
   .recipeSinglePageThumbnail img {
     width: 100%;
@@ -544,6 +544,14 @@ p.recipeSinglePageSubTitleSpace {
   }
   .recipeSingleInstructions li::before {
     margin-left: -1rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .recipeSinglePageThumbnail {
+    margin-left: 0px;
+    width: 100vw;
+    position: relative;
+    right: 153px;
   }
 }
 /* ----------------------------------------------------------------------------------------------
