@@ -547,6 +547,9 @@ p.recipeSinglePageSubTitleSpace {
   }
 }
 @media only screen and (max-width: 380px) {
+  .recipeSinglePageContent {
+    width: 95%;
+  }
   .recipeSinglePageThumbnail {
     margin-left: 0px;
     width: 100vw;
