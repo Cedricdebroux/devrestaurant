@@ -527,7 +527,7 @@ p.recipeSinglePageSubTitleSpace {
   height: 350px;
   position: absolute;
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 850px) {
   .recipeSinglePageContent {
     width: 100%;
   }
