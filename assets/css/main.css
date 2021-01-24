@@ -531,13 +531,14 @@ p.recipeSinglePageSubTitleSpace {
   .recipeSinglePageContent {
     width: 100%;
   }
-  .recipeSinglePageThumbnail {
-    width: 100%;
-  }
+
   .recipeSinglePageThumbnail img {
     width: 100%;
     height: 400px;
     margin-bottom: -120px
+  }
+  .recipeSingleInstructions li::before {
+    margin-left: -1rem;
   }
 }
 /* ----------------------------------------------------------------------------------------------
